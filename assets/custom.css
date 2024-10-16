@@ -586,6 +586,7 @@ button.quick-add__submit.pink-btn,
 .customer.login div form button,
 body.gradient-customers\/register .customer.register form button,
 .template-404.page-width.page-margin.center a.button {
+  margin: auto;
   max-width: 212px;
   width: 100%;
   background-color: var(--dark-color);
@@ -1894,7 +1895,7 @@ body.gradient-customers\/register .customer.register form button {
 .facets-container .facet-filters.sorting.caption select,
 .facets-container .product-count.light .text-body span {
   padding: 0 5px;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--commoncolor);
   font-weight: 600;
 }
@@ -7524,7 +7525,7 @@ footer.footer.color-background-1
   }
   .card__inner.color-background-2.gradient.ratio .card__media .media img {
     height: 230px;
-    object-fit: cover;
+    object-fit: contain;
   }
   .card__inner.color-background-2.gradient.ratio,
   .card__inner.color-background-2.gradient.ratio
