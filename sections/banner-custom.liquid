@@ -1,0 +1,147 @@
+ <div class="custom-home-banner">
+   <div class="row"> 
+    <div class="container">
+ 
+       <div class="custom-home-text-banner-content">
+        <div class="text-banner">
+          <div class="banner_slider_cstm">
+            {% assign i=0 %}
+{%for block in section.blocks %}  
+{% assign i= i | plus:1 %}
+        {% if i==1 %}  <div class="banner-slick_cstm cstm_slide_one">
+          <div class="main-img-wrapper">
+          <div class="banner-image-sect">
+    <img src="{{block.settings.banner_image | img_url:'master'}}"/>     
+  </div>
+          <div class="banner-image-sect second-img">
+    <img src="{{block.settings.banner_id | img_url:'master'}}"/>     
+  </div>
+          </div>
+<div class="banner-text-sect">
+  
+   <h1>{{block.settings.banner_heading_text}}</h1>
+  <span>{{block.settings.banner_head_text}}</span>
+  <span class="sub_heading">{{block.settings.banner_head_subtext}}</span>
+  <p>{{ block.settings.banner_pera_text }}</p>
+
+  <div class="main-wrapper-button-sec">
+    <div class="custom-home-text-content-para main_btn">
+       <a href="{{ block.settings.banner_Shop_link }}" class="pink-btn">{{ block.settings.banner_Shop_name }}</a>
+        </div>
+        <div class="custom-home-text-content-para main_btn learn-more slide_one_btn">
+       <a href="javascript:void(0);"  class="trassparent-btn">{{ block.settings.banner_Learn_name }}</a>
+        </div>
+  </div>
+</div>
+          </div>{% else %}
+
+<div class="banner-slick_cstm cstm_slide_two">
+          <div class="main-img-wrapper">
+          <div class="banner-image-sect">
+    <img src="{{block.settings.banner_image | img_url:'master'}}"/>     
+  </div>
+          <div class="banner-image-sect second-img">
+    <img src="{{block.settings.banner_id | img_url:'master'}}"/>     
+  </div>
+          </div>
+<div class="banner-text-sect">
+  
+   <h1>{{block.settings.banner_heading_text}}</h1>
+  <span>{{block.settings.banner_head_text}}</span>
+<span class="sub_heading">{{block.settings.banner_head_subtext}}</span>
+  <p>{{ block.settings.banner_pera_text }}</p>
+
+  <div class="main-wrapper-button-sec">
+    <div class="custom-home-text-content-para main_btn">
+       <a href="{{ block.settings.banner_Shop_link }}" class="pink-btn">{{ block.settings.banner_Shop_name }}</a>
+        </div>
+        <div class="custom-home-text-content-para main_btn learn-more slide_one_btn">
+       <a href="javascript:void(0);"  class="trassparent-btn">{{ block.settings.banner_Learn_name }}</a>
+        </div>
+  </div>
+</div>
+          </div>
+            {% endif %}
+      {%endfor%}     
+  </div>
+        </div>
+      
+      
+     </div> 
+     
+    </div>
+  </div> 
+</div>
+<div id="custom"></div>
+{% schema %}
+  {
+    "name": "Custom banner",
+    "blocks" :[ 
+      {
+         "type": "Banner",
+       "name": "banner text Block",
+       "settings": [
+          {
+            "type": "image_picker",
+      "id": "banner_image",
+      "label": "Your banner image"
+         },
+         {
+            "type": "image_picker",
+      "id": "banner_id",
+      "label": "Your banner image2"
+         },
+         {
+            "type": "text",
+      "id": "banner_heading_text",
+      "label": "Your banner heading text"
+         },
+         {
+            "type": "text",
+      "id": "banner_head_text",
+      "label": "Your banner heading text2"
+         },
+           {
+            "type": "text",
+      "id": "banner_head_subtext",
+      "label": "Sub Heading"
+         },
+         {
+            "type": "text",
+      "id": "banner_pera_text",
+      "label": "your banner pera"
+         },
+          {
+            "type": "url",
+            "id": "banner_Shop_link",
+            "label": "Shop Now url"
+         },
+      {
+            "type": "text",
+            "id": "banner_Shop_name",
+            "label": "Shop Now"
+         },
+         {
+            "type": "url",
+            "id": "banner_Learn_link",
+            "label": "Learn more url"
+         },
+          {
+            "type": "text",
+            "id": "banner_Learn_name",
+            "label": "Learn more"
+         } 
+       ]
+         }
+	  ],
+    "presets": [
+      {
+        "name":"Custom banner"
+      }
+    ]
+  }
+{% endschema %}
+{% stylesheet %}
+{% endstylesheet %}
+{% javascript %}
+{% endjavascript %}

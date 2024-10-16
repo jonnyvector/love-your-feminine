@@ -1,0 +1,238 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "d3b09e9a-9e3c-425e-abaa-7dac14166afd": {
+      "type": "custom-menu-section",
+      "disabled": true,
+      "settings": {
+        "menu": "custom-menu",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "35e5a879-ef77-47dc-bab0-74f800f3e643": {
+      "type": "text-with-img-with-background",
+      "blocks": {
+        "06633666-2a17-41be-8bdb-c3331ed40d97": {
+          "type": "images",
+          "settings": {
+            "text_icon_id": "Naturally Powerful"
+          }
+        },
+        "08272697-c7a7-4482-91bd-18c16dae5206": {
+          "type": "images",
+          "settings": {
+            "text_icon_id": "Nighttime Healing Herbal Underarm Remedies"
+          }
+        }
+      },
+      "block_order": [
+        "06633666-2a17-41be-8bdb-c3331ed40d97",
+        "08272697-c7a7-4482-91bd-18c16dae5206"
+      ],
+      "custom_css": [
+        "h5 {margin: 20px 0px 30px; font-weight: 400;}"
+      ],
+      "settings": {
+        "main_back_image_id": "shopify:\/\/shop_images\/bbb.jpg",
+        "custom_image_left": "shopify:\/\/shop_images\/custom_resized_c600b801-f0b9-47ac-8d49-677306246ec4.jpg",
+        "heading_text_right": "Formulated to Support Breast Wellness while you sleep",
+        "inner_heading_text_right": "",
+        "text_img_shop_link": "shopify:\/\/products\/love-your-pits-detoxification-mask",
+        "text_img_shop_name": "SHOP UNDERARM DETOX",
+        "text_img_Learn_link": "shopify:\/\/products\/love-your-pits-deodorant-balm",
+        "text_img_learn_name": "SHOP DEODORANTS"
+      }
+    },
+    "e0d48f92-3bbd-4b2b-aa7c-7bd880dba0df": {
+      "type": "text-with-button-background",
+      "settings": {
+        "heading": "Did You Know...",
+        "description": "LOVE YOUR BREASTS UNDERARM DETOXIFICATION BALMS PROVIDE NIGHTTIME LYMPH FLOW AND DRAINAGE SUPPORT USING POTENT ANCIENT HERBAL WISDOMS",
+        "description2": "",
+        "description3": "Breasts and armpits are connected by a cleaning system, called the lymphatic system? Cellular waste (carbon dioxide, infection, bacteria, cancer cells) is collected from deep within your breasts and carried to your armpits where it is destroyed and filtered by lymph nodes.",
+        "description4": "",
+        "description5": "The lymphatic system is highly active while lying down, and\/or during sleep, which makes it an ideal time to support it's flow and detoxification duties.",
+        "text_Shop_link": "shopify:\/\/pages\/resources",
+        "text_Shop_name": "",
+        "text_Learn_link": "",
+        "text_Learn_name": "",
+        "popup_content": ""
+      }
+    },
+    "40bff837-5803-427e-b96e-c6194ae0a113": {
+      "type": "image-custom-underarm",
+      "disabled": true,
+      "settings": {
+        "back_image_id": "shopify:\/\/shop_images\/picture_of_underarm_and_breast_lymph_nodes_and_lymph_1.jpg",
+        "heading": "Did You Know...",
+        "description": "",
+        "description3": "Your breasts and armpits are connected by A waste removal system – called the lymphatic system? Cellular waste (carbon dioxide, infection, bacteria, cancer cells) is carried from your breasts to your armpits in lymph fluid via lymph vessels.",
+        "description4": "The lymph nodes (20-30 of them) located right under the skin in your armpits (called axillary lymph nodes) then filter and destroy waste from your breasts.",
+        "description5": "",
+        "text_Shop_link": "",
+        "text_Shop_name": "LEARN MORE",
+        "text_Learn_link": "",
+        "text_Learn_name": ""
+      }
+    },
+    "cfc9c6a7-7258-49b2-a8fa-42ee2e4bc2cb": {
+      "type": "udarm-detox-image-text",
+      "settings": {
+        "custom_image_left": "shopify:\/\/shop_images\/picture_of_underarm_and_breast_lymph_nodes_and_lymph_1.jpg",
+        "heading_text_right": "OUR NIGHTTIME UNDERARM DETOX BALMS ARE SUPER POTENT.",
+        "inner_heading_text_right": "They are formulated using ancient healing herbal traditions that provide targeted support to the flow and detoxification of your blood and lymphatic system.",
+        "text_img_shop_link": "",
+        "text_img_shop_name": "",
+        "text_img_Learn_link": "",
+        "text_img_learn_name": ""
+      }
+    },
+    "ebe93d08-ead1-4ddc-b981-1a9f99cb56b3": {
+      "type": "underarms-image-with-text",
+      "blocks": {
+        "f5940421-1719-4ea1-9092-db6117cb37c6": {
+          "type": "image",
+          "settings": {
+            "underarm_custom_image": "shopify:\/\/shop_images\/istock_purchased_picture_home_page_underarm_detox_picture_a_ok.jpg",
+            "underarm_title_text_link": "shopify:\/\/products\/love-your-pits-detoxification-mask",
+            "underarm_heading_text": "SHOP UNDERARM DETOX"
+          }
+        },
+        "2e0f4ebf-524b-4897-a7ca-e31588b809bd": {
+          "type": "image",
+          "settings": {
+            "underarm_custom_image": "shopify:\/\/shop_images\/joyful_black_woman_with_arms_up.png",
+            "underarm_title_text_link": "shopify:\/\/products\/love-your-pits-deodorant-balm",
+            "underarm_heading_text": "SHOP DEODORANTS"
+          }
+        },
+        "166ddf18-87bd-4d00-be02-0d73abbef24e": {
+          "type": "image",
+          "settings": {
+            "underarm_custom_image": "shopify:\/\/shop_images\/shop-all-img_9aa6a194-1fea-40e4-8bd2-32bfb6bdbe36.png",
+            "underarm_title_text_link": "shopify:\/\/products\/breast-cream",
+            "underarm_heading_text": "BUNDLE AND SAVE 10%"
+          }
+        }
+      },
+      "block_order": [
+        "f5940421-1719-4ea1-9092-db6117cb37c6",
+        "2e0f4ebf-524b-4897-a7ca-e31588b809bd",
+        "166ddf18-87bd-4d00-be02-0d73abbef24e"
+      ],
+      "settings": {
+      }
+    },
+    "7e8aa1f0-db32-4e5b-877e-2e0310c86302": {
+      "type": "collection_tabbing",
+      "disabled": true,
+      "settings": {
+        "collection1": "feature-collection",
+        "tab1_heading": "SHOP UNDERARM DETOX",
+        "collection2": "feature-collection",
+        "tab2_heading": "SHOP DEODORANTS",
+        "collection3": "feature-collection",
+        "tab3_heading": "BUNDLE AND SAVE"
+      }
+    },
+    "2105d7b2-9981-4532-b55b-35742a24bb67": {
+      "type": "deodrent-custom-blog-section",
+      "blocks": {
+        "54f39c9d-54b4-44c8-8fb8-3ae320e0f165": {
+          "type": "blog",
+          "settings": {
+            "blog_image_id": "shopify:\/\/shop_images\/beautiful-woman-s-body-portrait.png",
+            "blog_head_text": "Top 5 Underarm Facts",
+            "blog_text": "There is more to your underarms than you've been led to believe! Yes, they are not just a source of odor. They gift you everyday with a healthy-breast opportunity.",
+            "blog_Learn_link": "shopify:\/\/blogs\/general\/top-5-ok-6-underarm-facts",
+            "blog_learn_name": "Learn More"
+          }
+        },
+        "eb2307d5-2c34-4db3-a184-b47e47c1d0f0": {
+          "type": "blog",
+          "settings": {
+            "blog_image_id": "shopify:\/\/shop_images\/studio-shot-of-happy-young-european-woman-makes-heart-gesture-over-chest-expresses-love-smiles-gently-wears-casual-jumper-isolated-over-pink-backgroun.png",
+            "blog_head_text": "Top 5 Love Your Breast Deodorant Facts",
+            "blog_text": "Introducing Love Your Breasts Deodorant Balms - The only deodorant of its kind, providing women with an everyday healthy-breast opportunity. Let's take a look at what's inside our Love Your Breasts Deodorant Balms that make them so special.",
+            "blog_Learn_link": "shopify:\/\/blogs\/news\/top-5-love-your-breast-deodorant-facts",
+            "blog_learn_name": "Learn More"
+          }
+        },
+        "9780741e-ce71-4cca-86c2-d242bb9ad759": {
+          "type": "blog",
+          "settings": {
+            "blog_image_id": "shopify:\/\/shop_images\/close-up-on-woman-revealing-her-armpit.png",
+            "blog_head_text": "Top 10 Breast Lymphatic Facts",
+            "blog_text": "Your breasts' lymph system has an arguous job. That said, it is perfectly equipped to handle its job, especially with your daily proactive and intentional support. Let's look at what your lymphatic system does for your breasts and how you can support it",
+            "blog_Learn_link": "shopify:\/\/blogs\/general\/top-10-breast-lymphatic-facts",
+            "blog_learn_name": "Learn More"
+          }
+        },
+        "07c46070-c653-4a60-ac6c-b9accc41f792": {
+          "type": "blog",
+          "settings": {
+            "blog_image_id": "shopify:\/\/shop_images\/AdobeStock_89927638_Preview.png",
+            "blog_head_text": "Top 10 Healthy Breast Facts",
+            "blog_text": "Your breasts were perfectly designed to maintain and sustain their health. Yes, this is true - BUT, today's modern day lifestyles put a heavy burden on this perfect design. Let's look at how we can support our breasts' innate healing and rejuvenating process.",
+            "blog_Learn_link": "shopify:\/\/blogs\/general\/top-10-healthy-breast-facts",
+            "blog_learn_name": "Learn More"
+          }
+        },
+        "3103c290-5071-478b-ab45-cea4252428ed": {
+          "type": "blog",
+          "settings": {
+            "blog_image_id": "shopify:\/\/shop_images\/studio-shot-of-happy-young-european-woman-makes-heart-gesture-over-chest-expresses-love-smiles-gently-wears-casual-jumper-isolated-over-pink-backgroun.png",
+            "blog_head_text": "Top 5 Love Your Breast Deodorant Facts",
+            "blog_text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni",
+            "blog_Learn_link": "shopify:\/\/blogs\/news\/top-5-love-your-breast-deodorant-facts",
+            "blog_learn_name": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "54f39c9d-54b4-44c8-8fb8-3ae320e0f165",
+        "eb2307d5-2c34-4db3-a184-b47e47c1d0f0",
+        "9780741e-ce71-4cca-86c2-d242bb9ad759",
+        "07c46070-c653-4a60-ac6c-b9accc41f792",
+        "3103c290-5071-478b-ab45-cea4252428ed"
+      ],
+      "settings": {
+        "blog_heading_text": "FROM OUR BLOG"
+      }
+    },
+    "42bf1fa7-2c52-4a3b-a39a-c7a6a1887af3": {
+      "type": "cstm_blog_section",
+      "disabled": true,
+      "settings": {
+        "dirobi_blog_heading": "FROM OUR BLOG"
+      }
+    },
+    "3877e3ed-94ce-4df4-bef7-935a72f155cf": {
+      "type": "deodrent-scroll-top-section",
+      "settings": {
+        "scroll_icon": "<i class=\"fa-solid fa-chevron-up\"><\/i>",
+        "scroll_text": "BACK TO TOP"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d3b09e9a-9e3c-425e-abaa-7dac14166afd",
+    "35e5a879-ef77-47dc-bab0-74f800f3e643",
+    "e0d48f92-3bbd-4b2b-aa7c-7bd880dba0df",
+    "40bff837-5803-427e-b96e-c6194ae0a113",
+    "cfc9c6a7-7258-49b2-a8fa-42ee2e4bc2cb",
+    "ebe93d08-ead1-4ddc-b981-1a9f99cb56b3",
+    "7e8aa1f0-db32-4e5b-877e-2e0310c86302",
+    "2105d7b2-9981-4532-b55b-35742a24bb67",
+    "42bf1fa7-2c52-4a3b-a39a-c7a6a1887af3",
+    "3877e3ed-94ce-4df4-bef7-935a72f155cf"
+  ]
+}

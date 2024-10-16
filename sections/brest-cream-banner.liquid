@@ -1,0 +1,84 @@
+<div class="breast-cream-section">
+  <div class="cstm-braest-banner-back-image" {% if section.settings.image-back != blank %} style="background-image: url('{{ section.settings.image-back | img_url:"master" }}');" {% endif %}>
+  <div class="container">
+    <div class="breast-cream-inner-content">
+      <div class="breast-cream-banner-heading">
+        {% if section.settings.haeding !=blank %}
+        <h4>{{ section.settings.haeding }}</h4>
+          {% endif %}
+      </div>
+      <div class="breast-cream-banner-content">
+        {% if section.settings.content !=blank %}
+        <p>{{ section.settings.content }}</p>
+          {% endif %}
+      </div>
+      <div class="breast-cream-buttons-banner">
+        {% if section.settings.linktext !=blank %}
+        <a href="{{ section.settings.link }}" class="button">{{ section.settings.linktext }}</a>
+          {% endif %}
+      </div>
+      <div class="breast-cream-buttons-two-banner">
+        {% if section.settings.linktexts !=blank %}
+        <a href="{{ section.settings.links }}" class="button">{{ section.settings.linktexts }}</a>
+          {% endif %}
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "braest cream banner",
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"image-back",
+        "label":"image"
+      },
+      {
+        "type":"text",
+        "id":"haeding",
+        "label":"heading"
+      },
+      {
+        "type":"text",
+        "id":"content",
+        "label":"content"
+      },
+      {
+      "id": "link",
+      "type": "url",
+      "label": "Button link"
+    },
+    {
+      "id": "linktext",
+      "type": "text",
+      "label": "Button text",
+      "default": "Click Here"
+    },
+      {
+      "id": "links",
+      "type": "url",
+      "label": "Button link"
+    },
+    {
+      "id": "linktexts",
+      "type": "text",
+      "label": "Button text",
+      "default": "Click Here"
+    }
+    ],
+    "presets": [
+      {
+        "category":"braest cream banner",
+        "name":"braest cream banner"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

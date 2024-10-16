@@ -1,0 +1,93 @@
+ <div class="custom-home-text-image-button image-custom-underarm">
+  <div class="custom-home-multi-text-image-button-background-img">
+<div class="container">
+  <div class="custom-diffrence">
+<div class="heading-section image-section">
+{% if section.settings.back_image_id != blank %}  <img src="{{ section.settings.back_image_id | img_url:"master" }}">{% endif %}
+</div>
+  <div class="main-wrappper-text-button">
+  <div class="text-sect">
+ <p>{{ section.settings.heading }}</p>
+  <p>{{ section.settings.description3 }} </p>
+  <p> {{ section.settings.description4 }}</p> 
+   <p>{{ section.settings.description5 }}</p>    
+</div>
+   <div class="main-wrapper-text-cust-sec">
+    {% if section.settings.text_Shop_name != blank %}<div class="custom-home-text main_btn">
+       <a href="{{ section.settings.text_Shop_link }}" class="black-btn">{{ section.settings.text_Shop_name }}</a>
+        </div>{% endif %}
+       {% if section.settings.text_Learn_name != blank %} <div class="custom-home-text learn-more">
+       <a href="{{ section.settings.text_Learn_link }}" class="trassparent-btn">{{ section.settings.text_Learn_name }}</a>
+        </div>{% endif %}
+  
+  </div>
+  </div>
+  </div></div>
+  </div>
+ </div>
+
+
+{% schema %}
+  {
+    "name": "image-cstm-text",
+    "settings": [
+      {
+            "type": "image_picker",
+            "id": "back_image_id",
+            "label": "Image"
+         },
+       {
+      "type": "text",
+      "id": "heading",
+      "label": "Your headline for the section"
+    },
+        {
+      "type": "text",
+      "id": "description",
+      "label": "Your description"
+    },
+    
+        {
+      "type": "text",
+      "id": "description3",
+      "label": "Text"
+    },
+        {
+      "type": "text",
+      "id": "description4",
+      "label": "Text"
+    },
+        {
+      "type": "text",
+      "id": "description5",
+      "label": "Text"
+    },
+       {
+            "type": "url",
+            "id": "text_Shop_link",
+            "label": "Shop Now url"
+         },
+      {
+            "type": "text",
+            "id": "text_Shop_name",
+            "label": "Shop Now"
+         },
+         {
+            "type": "url",
+            "id": "text_Learn_link",
+            "label": "Learn more url"
+         },
+          {
+            "type": "text",
+            "id": "text_Learn_name",
+            "label": "Learn more"
+         } 
+    ],
+    "presets": [
+      {
+        "category": "image-cstm-text",
+        "name": "image-cstm-text"
+      }
+    ]
+  }
+{% endschema %}

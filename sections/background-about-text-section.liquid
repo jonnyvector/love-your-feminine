@@ -1,0 +1,97 @@
+<div class="custom-home-about">
+  <div class="custom-home-text-about-background-img" >
+<div class="about-second-section">
+   <div class="custom-diffrence-about" {% if section.settings.back_about_tepm_id != blank %} style="background-image: url('{{ section.settings.back_about_tepm_id | img_url:"master" }}');" {% endif %}>
+<div class="about-heading-section">
+  <img src="{{section.settings.icon_img_about | img_url:'master'}}"/>  
+<h4>{{ section.settings.about_second_text }}</h4>
+  <p>{{ section.settings.about_head_text_second }}</p>
+  </div>
+   </div>
+
+     <div class="about-custom-diffrence">
+<div class="heading-section-about-cust">
+<h4>{{ section.settings.second_about_pera_text }}</h4>
+  <div class="about-sec-per-right">
+  <p>{{ section.settings.about_second_cust_pera_text }}</p>
+    <p>{{ section.settings.about_second_cust_pera_text1 }}</p>
+     <p><b>{{ section.settings.about_second_cust_pera_text2 }}</b></p>
+  </div>
+  </div>
+   </div>
+
+  <div class="imagre-section-about-cust">
+ <img src="{{section.settings.img_about_last | img_url:'master'}}"/>  
+  </div>
+  
+</div>
+  </div>
+</div>
+
+
+{% schema %}
+      {
+    "name": "about-us-second",
+    "settings": [
+      {
+            "type": "image_picker",
+      "id": "back_about_tepm_id",
+      "label": "image"
+         },
+      {
+            "type": "image_picker",
+      "id": "icon_img_about",
+      "label": "image 2"
+         },
+     
+      {
+            "type": "text",
+      "id": "about_second_text",
+      "label": "heading"
+         },
+         {
+            "type": "text",
+      "id": "about_head_text_second",
+      "label": "heading 2"
+         },
+         {
+            "type": "html",
+      "id": "second_about_pera_text",
+      "label": "peragraph"
+         },
+      
+      {
+            "type": "text",
+      "id": "about_second_cust_pera_text",
+      "label": "peragraph 2"
+         },
+      {
+            "type": "text",
+      "id": "about_second_cust_pera_text1",
+      "label": "peragraph"
+         },
+      {
+            "type": "text",
+      "id": "about_second_cust_pera_text2",
+      "label": "peragraph"
+         },
+       {
+            "type": "image_picker",
+      "id": "img_about_last",
+      "label": "image 3"
+         }
+    ],
+    "presets": [
+      {
+        "name":"about us second custom"
+      }
+    ]
+  }
+   
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

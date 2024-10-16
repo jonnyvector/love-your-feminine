@@ -1,0 +1,121 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "50df4f8c-8474-49f7-aa46-8e85cb50c7f2": {
+      "type": "custom-menu-section",
+      "disabled": true,
+      "settings": {
+        "menu": "custom-menu",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "432dbde1-b9f0-43d0-9dc3-1e7c72c79fea": {
+      "type": "deodrent-first-section-custom",
+      "settings": {
+        "deodrent_first_image_left": "shopify:\/\/shop_images\/thehealthybreastco-picture-of-woman-huggingherself-_1_-_1.png",
+        "deodrent_first_heading_text_right": "healthy breasts for life begins with everyday healthy habits",
+        "deodrent_first_inner_heading_text_right2": "",
+        "deodrent_first_inner_heading_text_right": "",
+        "deodrent_first_text_img_shop_link": "",
+        "deodrent_first_text_img_shop_name": "",
+        "deodrent_first_text_img_Learn_link": "",
+        "deodrent_first_text_img_learn_name": ""
+      }
+    },
+    "12b8f52f-89a6-4649-83cb-df8a51fa36bb": {
+      "type": "Image_shopall_section",
+      "blocks": {
+        "2d23e43d-3ff9-4261-93ed-a4cf29446a3c": {
+          "type": "images",
+          "settings": {
+            "reverse-titles": true,
+            "image_alignment": "left",
+            "custom_image_left": "shopify:\/\/shop_images\/joyful_black_woman_with_arms_up.png",
+            "heading_text_right": "DEODORANTS",
+            "inner_content": "EVERYDAY HEALTHY BREAST CARE  BEGINS WITH ARMPITS.       \n\nLocated in your armpits are lymph nodes that are responsible for filtering, neutralizing and draining the majority of the cellular toxic waste from your breasts. \nThe unhindered flow of waste from  your breasts to your armpits, and then back into your bloodstream is essential to support healthy breast tissue.",
+            "text_img_shop_link": "shopify:\/\/products\/love-your-pits-deodorant-balm",
+            "text_img_shop_name": "Shop Now"
+          }
+        },
+        "80f5f9fd-7cbd-4216-806a-2ce7b4fb80dc": {
+          "type": "images",
+          "settings": {
+            "reverse-titles": true,
+            "image_alignment": "right",
+            "custom_image_left": "shopify:\/\/shop_images\/image_4d65e370-f080-4c3a-b499-aa49d81d99b6.png",
+            "heading_text_right": "BREAST TRAUMA DEODORANT",
+            "inner_content": "Armpits are #1 when it comes to setting the foundation for breast health and wellness. There are times when armpits need something stronger - something extra for lymph and blood movement and detoxification support. In our Love Your Breasts trauma deodorant formula, we have integrated the most powerful lymphatic and blood supporting herbs that befit such an occasion. Cheers to your breast wellness, and proactive and intentional breast care!",
+            "text_img_shop_link": "shopify:\/\/products\/deodorant-breast-trauma",
+            "text_img_shop_name": "SHOP NOW"
+          }
+        },
+        "842eb13b-9f94-4cff-a717-03309f92b3b6": {
+          "type": "images",
+          "settings": {
+            "reverse-titles": true,
+            "image_alignment": "right",
+            "custom_image_left": "shopify:\/\/shop_images\/istock_purchased_picture_home_page_underarm_detox_picture_a_ok.jpg",
+            "heading_text_right": "UNDERARM DETOX",
+            "inner_content": "Your armpits are not just a source of odor! More importantly they are the location of the main drain for your breasts' cellular toxic waste. This drain is part of your lymphatic system - which in turn is part of your immune system.  Cellular waste is collected from your breast tissue and transported to your armpits where it is neutralized, filtered, and drained and then sent back into the bloodstream.  Our underarm detox healing herbal formulas are potent, offering nightly anti-inflammatory, lymph & blood flow support and detoxification.",
+            "text_img_shop_link": "shopify:\/\/products\/love-your-pits-detoxification-mask",
+            "text_img_shop_name": "Shop Now"
+          }
+        },
+        "bbad2f2f-4708-4b7b-b0fc-628db6b74c25": {
+          "type": "images",
+          "settings": {
+            "reverse-titles": true,
+            "image_alignment": "left",
+            "custom_image_left": "shopify:\/\/shop_images\/adobe_istock_photo_purchased_picture_for_homepage_breast_cream_box.jpg",
+            "heading_text_right": "BREAST CREAM",
+            "inner_content": "LOVE YOUR BREASTS<sup>TM<\/sup> Herbal Remedy creams are formulated with herbs that have been used by wise women healers for centuries to encourage breast health.  Our creams are specifically formulated to support lymph and blood movement and detoxification. It is a must have for your daily healthy breast care routine.",
+            "text_img_shop_link": "shopify:\/\/products\/breast-cream",
+            "text_img_shop_name": "SHOP NOW"
+          }
+        },
+        "0c700c69-9cae-496a-8060-e84933df1f77": {
+          "type": "images",
+          "settings": {
+            "reverse-titles": false,
+            "image_alignment": "right",
+            "custom_image_left": "shopify:\/\/shop_images\/homepage_breast_oils_picture.png",
+            "heading_text_right": "BREAST OILS",
+            "inner_content": "Our Love Your Healthy Breast oils are the strongest of all of our formulations and a must have for any potent proactive breast-wellness regimen. They are filled with oils infused with flowers, leaves, roots, and resins that have been used by wise healing women throughout the centuries to support breast resilience and wellness. Every ingredient was thoughtfully and intentionally chosen for its powerful therapeutic abilities to support blood and lymph flow, providing a healthy anti-inflammatory response, and ultimately improving breast wellness.",
+            "text_img_shop_link": "shopify:\/\/products\/breast-oil",
+            "text_img_shop_name": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "2d23e43d-3ff9-4261-93ed-a4cf29446a3c",
+        "80f5f9fd-7cbd-4216-806a-2ce7b4fb80dc",
+        "842eb13b-9f94-4cff-a717-03309f92b3b6",
+        "bbad2f2f-4708-4b7b-b0fc-628db6b74c25",
+        "0c700c69-9cae-496a-8060-e84933df1f77"
+      ],
+      "settings": {
+      }
+    },
+    "3eada85e-73d4-4c5f-8990-f9517927ac68": {
+      "type": "deodrent-scroll-top-section",
+      "settings": {
+        "scroll_icon": "<i class=\"fa-solid fa-chevron-up\"><\/i>",
+        "scroll_text": "Back to top"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "50df4f8c-8474-49f7-aa46-8e85cb50c7f2",
+    "432dbde1-b9f0-43d0-9dc3-1e7c72c79fea",
+    "12b8f52f-89a6-4649-83cb-df8a51fa36bb",
+    "3eada85e-73d4-4c5f-8990-f9517927ac68"
+  ]
+}

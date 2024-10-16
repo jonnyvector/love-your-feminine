@@ -1,0 +1,48 @@
+<div class="scroll-top-cust" id="button">
+<div class="scroll-top-icon">
+ <p>{{section.settings.scroll_icon }}</p>
+</div>
+  <div class="scroll-top-text">
+ <p>{{section.settings.scroll_text }}</p>
+</div>
+</div>
+
+<script>
+	$(".scroll-top-icon").click(function(){
+
+ $("html, body").animate({ 
+            scrollTop: 0 
+        }, "slow");
+        return false;
+        
+    });
+</script>
+
+{% schema %}
+  {
+    "name": "Scroll section",
+    "settings": [
+      {
+            "type": "html",
+      "id": "scroll_icon",
+      "label": "Your scroll text"
+         },
+      {
+            "type": "html",
+      "id": "scroll_text",
+      "label": "Your scroll text"
+         }
+    ],
+    "presets": [
+      {
+        "name":"scroll section"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

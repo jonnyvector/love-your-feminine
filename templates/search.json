@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "f0240819-0d49-43f0-b9a8-345133a257dd": {
+      "type": "custom-menu-section",
+      "disabled": true,
+      "settings": {
+        "menu": "custom-menu",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "main": {
+      "type": "main-search",
+      "settings": {
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "article_show_date": true,
+        "article_show_author": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "f0240819-0d49-43f0-b9a8-345133a257dd",
+    "main"
+  ]
+}

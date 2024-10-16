@@ -1,0 +1,101 @@
+{
+  "sections": {
+    "custom_menu_inner_pages_yXzfmp": {
+      "type": "custom-menu-inner-pages",
+      "settings": {
+        "menu": "vaginal-page",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "home_banner_a47gPz": {
+      "type": "home-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_final-xd.png",
+        "img": "shopify:\/\/shop_images\/mobile-banner.png",
+        "text-1": "Experience the Joy",
+        "text-2": "you get from loving your feminine",
+        "text-3": "Discover our full range of All Natural and Organic Herbal Healing Vaginal and Vulva products.",
+        "deodrent_first_text_img_shop_link": "shopify:\/\/pages\/vulva-wellness",
+        "deodrent_first_text_img_shop_name": "SHOP VULVA WELLNESS",
+        "deodrent_first_text_img_Learn_link": "shopify:\/\/pages\/vaginal",
+        "deodrent_first_text_img_learn_name": "SHOP VAGINAL WELLNESS"
+      }
+    },
+    "featured_products_H7DNVA": {
+      "type": "featured_products",
+      "blocks": {
+        "product_qfytm7": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3dpictureadvancedvaginalrestorationoil1oz.png",
+            "variant_title": "VAGINAL RESTORATIVE",
+            "product_title": "OIL FOR WOMEN OVER 40",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/products\/advanced-phyto-vaginal-rejuvenating-oil-copy"
+          }
+        },
+        "product_KBHhhy": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/Final_4K_14_2.png",
+            "variant_title": "ADVANCED PHYTO",
+            "product_title": "VAGINAL REJUVENATING OIL",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/products\/advanced-vaginal-hydration-copy"
+          }
+        },
+        "product_R8XaHt": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3dpictureadvancedvaginalhydration.png",
+            "variant_title": "ADVANCED VAGINAL HYDRATION",
+            "product_title": "",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/products\/feminine-wash-for-women-over-40-copy"
+          }
+        },
+        "product_B6kWUm": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3dpicturevaginalhydrationeveryday1oz.png",
+            "variant_title": "VULVA PHYTO",
+            "product_title": "REJUVENATING BALM",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/products\/copy-of-love-your-breasts™-deodorant-balm"
+          }
+        },
+        "product_qM9LUj": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/Final_4K_1_4.png",
+            "variant_title": "VAGINAL",
+            "product_title": "VITAMINS",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/products\/advanced-phyto-vaginal-rejuvenating-oil-copy-1"
+          }
+        }
+      },
+      "block_order": [
+        "product_qfytm7",
+        "product_KBHhhy",
+        "product_R8XaHt",
+        "product_B6kWUm",
+        "product_qM9LUj"
+      ],
+      "settings": {
+        "product": "",
+        "header": ""
+      }
+    }
+  },
+  "order": [
+    "custom_menu_inner_pages_yXzfmp",
+    "home_banner_a47gPz",
+    "featured_products_H7DNVA"
+  ]
+}

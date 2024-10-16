@@ -1,0 +1,89 @@
+ <div class="custom-home-text-deodrent-four">
+ <div class="custom-home-deodrent-four-background-img" {% if section.settings.deodrent_four_id != blank %} style="background-image: url('{{ section.settings.deodrent_four_id | img_url:"master" }}');" {% endif %}>
+ 
+   <div class="row">
+   
+  <div class="col-md-6">
+<div class="text-sect-deodrent-four">
+  <h4>{{ section.settings.deodrent_four_heading_right }}</h4>
+  <h5>{{ section.settings.deodrent_four_inner_heading }}</h5>
+  </div>
+    <div class="shop-learn-btn-deodrent-four">
+      <div class="shop-learn-butnn-deodrent-first main_btn">
+       <a href="{{ section.settings.deodrent_four_shop_link }}" class="black-btn">{{ section.settings.deodrent_four_shop_name }}</a>
+        </div>
+        <div class="shop-learn-deodrent-four learn-more">
+       <a href="{{ section.settings.deodrent_four_Learn_link }}" class="trassparent-btn">{{ section.settings.deodrent_four_learn_name }}</a>
+        </div>
+    </div>
+ </div>
+
+<div class="col-md-6">
+<img src="{{ section.settings.deodrent_four_id | img_url:"master" }}">
+</div>
+     
+ {% comment %}
+      <div class="col-md-6">
+<div class="img-sect-right-deodrent-four">
+  <img src="{{section.settings.deodrent_four_right | img_url:'master'}}"/>
+  </div>
+    {% endcomment %}
+ </div>
+    
+   </div>
+ </div>
+ </div>
+
+{% schema %}
+  {
+    "name": "text deodrent four",
+    "settings": [
+      {
+            "type": "image_picker",
+            "id": "deodrent_four_id",
+            "label": "background Image"
+         },
+      {
+            "type": "text",
+            "id": "deodrent_four_heading_right",
+            "label": "Add Heading text"
+         },
+         {
+            "type": "text",
+            "id": "deodrent_four_inner_heading",
+            "label": "Add inner Heading text"
+         },
+         {
+            "type": "url",
+            "id": "deodrent_four_shop_link",
+            "label": "Shop Now url"
+         },
+      {
+            "type": "text",
+            "id": "deodrent_four_shop_name",
+            "label": "Shop Now"
+         },
+         {
+            "type": "url",
+            "id": "deodrent_four_Learn_link",
+            "label": "Learn more url"
+         },
+          {
+            "type": "text",
+            "id": "deodrent_four_learn_name",
+            "label": "Learn more"
+         },
+      {
+            "type": "image_picker",
+      "id": "deodrent_four_right",
+      "label": "Your image"
+         }
+    ],
+    "presets": [
+      {
+        "category": "image",
+        "name": "text deodrent four section"
+      }
+    ]
+  }
+{% endschema %}

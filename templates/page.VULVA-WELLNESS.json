@@ -1,0 +1,139 @@
+{
+  "sections": {
+    "custom_menu_inner_pages_yXzfmp": {
+      "type": "custom-menu-inner-pages",
+      "settings": {
+        "menu": "vulva-wellness-menu-desktop",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "home_banner_9JPqcU": {
+      "type": "home-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_final-xd.png",
+        "img": "shopify:\/\/shop_images\/mobile-banner.png",
+        "text-1": "Experience the Joy",
+        "text-2": "you get from loving your feminine",
+        "text-3": "Discover our full range of All Natural and Organic Herbal Healing Vaginal and Vulva products.",
+        "deodrent_first_text_img_shop_link": "shopify:\/\/pages\/vulva-wellness",
+        "deodrent_first_text_img_shop_name": "SHOP VULVA WELLNESS",
+        "deodrent_first_text_img_Learn_link": "shopify:\/\/pages\/vaginal",
+        "deodrent_first_text_img_learn_name": "SHOP VAGINAL WELLNESS"
+      }
+    },
+    "banner_single_slide_TeWcUw": {
+      "type": "banner_single_slide",
+      "blocks": {
+        "slide_gAMR88": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "shopify:\/\/shop_images\/got_bg.png",
+            "image_left": "shopify:\/\/shop_images\/right_image.png",
+            "image_right": "shopify:\/\/shop_images\/left_image.png",
+            "image_line": "shopify:\/\/shop_images\/line.png",
+            "Heading_1": "Got  Brea?ts",
+            "text_1": "Then your deodorant matters <span>more than you think!<\/span>",
+            "Button_shop": "Shop Now",
+            "url_shop": "shopify:\/\/products\/deodorant-breast-trauma",
+            "mobile_image": "shopify:\/\/shop_images\/banner-_1_47073297-24e1-4956-ae01-726962596c8c.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slide_gAMR88"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "featured_products_qN8qby": {
+      "type": "featured_products",
+      "blocks": {
+        "product_pHbDXA": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3D_FEMININE_WASH_FRANKINCENSE_AND_CLARY_SAGE_EVERYDAY_899aaf7d-9f6d-4f14-97e1-58ae8637254a.png",
+            "variant_title": "Feminine",
+            "product_title": "wash Everyday",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/products\/vulva-care-72-hour-deodorant-and-detox-balm"
+          }
+        },
+        "product_emEdFW": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3DFEMININEWASHFRANKINCENSEANDCLARYSAGEOVER40.png",
+            "variant_title": "Feminine",
+            "product_title": "Wash For Women Over 40",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/products\/vulva-care-intimate-wash-for-women-over-40"
+          }
+        },
+        "product_9tQBUk": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3DFEMININEWASHFRANKINCENSEANDCLARYSAGEITCHANDBURN_efe15962-ce16-4306-b63a-cd13f3021e6f.png",
+            "variant_title": "Feminine",
+            "product_title": "Wash Itch and Burn Remedy",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/products\/intimate-herbal-wash-itch-and-burn-remedy"
+          }
+        },
+        "product_MDPYwL": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3DVULVACAREDEODORANTFRANKINCENSEMYRRHCLARYSAGE.png",
+            "variant_title": "Feminine",
+            "product_title": "Deodorant",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/products\/feminine-72-hour-deodorant-and-detox-balm"
+          }
+        },
+        "product_HYxFh8": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3dvulvacarephytobalmrejuvenatingforwomenover40.png",
+            "variant_title": "Vulva",
+            "product_title": "Rejuvenation",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/products\/love-your-pits™-deodorant-balm-copy"
+          }
+        },
+        "product_ddMQxL": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3DVULVACAREFRANKINCENSEDETOXBALM.png",
+            "variant_title": "Vulva",
+            "product_title": "Detoxification",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/products\/vulva-detox-mask"
+          }
+        }
+      },
+      "block_order": [
+        "product_pHbDXA",
+        "product_emEdFW",
+        "product_9tQBUk",
+        "product_MDPYwL",
+        "product_HYxFh8",
+        "product_ddMQxL"
+      ],
+      "settings": {
+        "product": "",
+        "header": "TAKE CHARGE OF YOUR FEMININE HEALTH NATURALLY"
+      }
+    }
+  },
+  "order": [
+    "custom_menu_inner_pages_yXzfmp",
+    "home_banner_9JPqcU",
+    "banner_single_slide_TeWcUw",
+    "featured_products_qN8qby"
+  ]
+}

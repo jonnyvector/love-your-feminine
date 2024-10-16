@@ -1,0 +1,39 @@
+<div class="main-wrapper-cust-video">
+<div{% if section.settings.full_width %} class="page-width"{% endif %}>
+      {%- unless section.settings.heading == blank -%}
+        <div class="title-wrapper-custom">
+          <h2 class="title">{{ section.settings.heading }}</h2>
+        </div>
+      {%- endunless -%}
+    </div>
+      <div class="video" >
+        <iframe src="{{ section.settings.video_url }}" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="560" height="315" frameborder="0"></iframe> </div>
+</div>
+{% schema %}
+  {
+    "name": "video custom",
+    "settings": [
+       {
+      "type": "text",
+      "id": "heading",
+      "label": "add haeding"
+    },
+       {
+      "type": "url",
+      "id": "video_url",
+      "label": "Add video"
+    }
+    ],
+     "presets": [
+    {
+      "name": "video custom"
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

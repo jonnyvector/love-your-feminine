@@ -1,0 +1,70 @@
+<div class="last-main-about-wrapper">
+<div class="last-about-sect">
+
+<div class="last-inner-head-about">
+<h4>{{ section.settings.about_head_text_last }}</h4>
+</div>
+  <div class="last-inner-text-about-cust">
+<p>{{ section.settings.about_last_text }}</p>
+    <p>{{ section.settings.about_last_text2 }}</p>
+</div>
+  </div>
+
+     <div class="last-head-sect-cust">
+    <h3>{{ section.settings.last_section_head-about }}</h3>
+     
+     <p><span> {{ section.settings.last_section_html-about1 }}</span>{{ section.settings.last_section_html-about }}</p>
+    </div>
+  </div>
+
+
+
+{% schema %}
+   {
+    "name": "about-us-last",
+    "settings": [
+         {
+            "type": "text",
+      "id": "about_head_text_last",
+      "label": "Your banner heading text2"
+         },
+      {
+            "type": "text",
+      "id": "about_last_text",
+      "label": "Your about heading text"
+         },   {
+            "type": "text",
+      "id": "about_last_text2",
+      "label": "Your about heading text"
+         },  
+      {
+            "type": "text",
+            "id": "last_section_head-about",
+            "label": "Add last heading text"
+         },
+       {
+            "type": "html",
+            "id": "last_section_html-about1",
+            "label": "Add first text"
+         },
+    
+          {
+            "type": "html",
+            "id": "last_section_html-about",
+            "label": "Add last text"
+         }
+      
+    ],
+    "presets": [
+      {
+        "name":"about us last custom"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

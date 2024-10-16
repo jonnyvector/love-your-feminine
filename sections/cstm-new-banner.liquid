@@ -1,0 +1,408 @@
+<div class="cstm-new-banner">
+  <div class="banner-slider">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {% when 'text' %}
+          <div
+            class="cstm-new-banner-wrapper {{ block.settings.css1 }} {% if block.settings.bg-img != blank %} banner5 {% endif %}"
+            {% if block.settings.bg-img != blank %}
+            style="background-image: url('{{ block.settings.bg-img |img_url:'master' }}');"
+            {% endif %}>
+            <div class="cstm-new-banner-wrapper-dsktp">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="banner-text-wrapper">
+                      <div class="content-banner">
+                        <div class="banner-head">
+                          <h2>{{ block.settings.Heading }}</h2>
+                        </div>
+                        <div class="banner-text">
+                          <p>{{ block.settings.text }}</p>
+                        </div>
+                        {% if block.settings.stars != blank %}
+                          <div class="review-star">
+                            <span class="rating_grp">
+                              {% capture st %}{{block.settings.rw_star}}{% endcapture %}
+                              {% for i in (1..5) limit: st %}
+                                <i class="fas fa-star"></i>
+                              {% endfor %}
+                            </span>
+                          </div>
+                        {% endif %}
+                        {% if block.settings.text1 != blank %}
+                          <div class="text-second-bold">
+                            <p>{{ block.settings.text1 }}</p>
+                          </div>
+                        {% endif %}
+                        {% if block.settings.text2 != blank %}
+                          <div class="text-second">
+                            <p>{{ block.settings.text2 }}</p>
+                          </div>
+                        {% endif %}
+                        <div class="buttons-wrap">
+                          <div class="shop-button">
+                            <a href="{{ block.settings.shop_url}}">{{ block.settings.shop_button }}</a>
+                          </div>
+                          {% if block.settings.learn_button != blank %}
+                            <div class="learn-button">
+                              <a href="{{ block.settings.learn_url }}">{{ block.settings.learn_button }}</a>
+                            </div>
+                          {% endif %}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="banner-image">
+                      <img src="{{ block.settings.image |img_url:'master'}}">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mobile-banner" style="display: none">
+              <div class="mobile-banner-wrap">
+                <div class="image-mobile">
+                  <img src="{{ block.settings.image |img_url:'master'}}">
+                </div>
+                <div class="content-banner">
+                  <div class="banner-head">
+                    <h2>{{ block.settings.Heading }}</h2>
+                  </div>
+                  <div class="banner-text">
+                    <p>{{ block.settings.text }}</p>
+                  </div>
+                  {% if block.settings.stars != blank %}
+                    <div class="review-star">
+                      <span class="rating_grp">
+                        {% capture st %}{{block.settings.rw_star}}{% endcapture %}
+                        {% for i in (1..5) limit: st %}
+                          <i class="fas fa-star"></i>
+                        {% endfor %}
+                      </span>
+                    </div>
+                  {% endif %}
+                  {% if block.settings.text1 != blank %}
+                    <div class="text-second-bold">
+                      <p>{{ block.settings.text1 }}</p>
+                    </div>
+                  {% endif %}
+                  {% if block.settings.text2 != blank %}
+                    <div class="text-second">
+                      <p>{{ block.settings.text2 }}</p>
+                    </div>
+                  {% endif %}
+                  <div class="buttons-wrap">
+                    <div class="shop-button">
+                      <a href="{{ block.settings.shop_url}}">{{ block.settings.shop_button }}</a>
+                    </div>
+                    {% if block.settings.learn_button != blank %}
+                      <div class="learn-button">
+                        <a href="{{ block.settings.learn_url }}">{{ block.settings.learn_button }}</a>
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        {% when 'image' %}
+          <div class="cstm-new-banner-image {{ block.settings.css }}">
+            <div class="cstm-background-image dsktp" style="background-image: url('{{ block.settings.bg_image |img_url:"master"}}');">
+              <div class="container banner-text-button">
+                <div class="banner-heading">
+                  <h2>{{ block.settings.head }}</h2>
+
+                  <div class="banner-subtext">
+                    <p>{{ block.settings.subtext }}</p>
+                    <p>{{ block.settings.subtext1 }}</p>
+                    <p>{{ block.settings.subtext2 }}</p>
+                  </div>
+                </div>
+
+
+                <div class="shop-button-wrapper {% if block.settings.button_url != blank and block.settings.button_2_url != blank %} double-button {% else %} single-button {% endif %}">
+                  {%- if block.settings.button_url != blank -%}
+                    <div
+                      class="shop-button{% if block.settings.button_2_url != blank %} shop-button__double{% endif %}"
+                      {% if block.settings.button_2_url != blank %}
+                      style="margin-left: auto;"
+                      {% endif %}>
+                      <a href="{{ block.settings.button_url }}">{{ block.settings.button }}</a>
+                    </div>
+                  {%- endif -%}
+                  {%- if block.settings.button_2_url != blank -%}
+                    <div class="shop-button shop-button__double" style="margin-right: auto;">
+                      <a href="{{ block.settings.button_2_url }}">{{ block.settings.button_2 }}</a>
+                    </div>
+                  {%- endif -%}
+                </div>
+              </div>
+            </div>
+            {% if block.settings.mobile_image != blank %}
+              <div class="cstm-background-image mobile" style="display: none">
+                <div class="image-mobile">
+                  <img src="{{ block.settings.mobile_image |img_url:'master'}}">
+                </div>
+                <div class="container banner-text-button">
+                  <div class="banner-heading">
+                    <h2>{{ block.settings.head }}</h2>
+
+                    <div class="banner-subtext">
+                      <p>{{ block.settings.subtext }}</p>
+                      <p>{{ block.settings.subtext1 }}</p>
+                      <p>{{ block.settings.subtext2 }}</p>
+                    </div>
+                  </div>
+                  {% if block.settings.button_url != blank %}
+                    <div class="shop-button">
+                      <a href="{{ block.settings.button_url }}">{{ block.settings.button }}</a>
+                    </div>
+                  {% endif %}
+                  {% if block.settings.button_2_url != blank %}
+                    <div class="shop-button shop-button-2">
+                      <a href="{{ block.settings.button_2_url }}">{{ block.settings.button_2 }}</a>
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+        {% when 'slide' %}
+          <div class="cstm-new-banner-two-images">
+            <div class="images-wrapper-desktop" style="background-image: url('{{ block.settings.bg_color |img_url:"master"}}');">
+              <div class="left-image">
+                <img src="{{ block.settings.image_left |img_url:'master' }}">
+              </div>
+              <div class="center-text">
+                <h3>{{ block.settings.Heading_1 }}</h3>
+                <p>{{ block.settings.text_1 }}</p>
+                <div class="line-image"><img src="{{ block.settings.image_line |img_url:'master' }}"></div>
+                <div class="shop-button">
+                  <a href="{{ block.settings.url_shop }}">{{ block.settings.Button_shop }}</a>
+                </div>
+              </div>
+              <div class="right-image">
+                <img src="{{ block.settings.image_right |img_url:'master' }}">
+              </div>
+            </div>
+            {% if block.settings.mobile_image != blank %}
+              <div class="images-wrapper-mobile">
+                <div class="bg-image-mobile">
+                  <img src="{{ block.settings.mobile_image |img_url:'master' }}">
+                </div>
+                <div class="center-text">
+                  <div class="content-mobile">
+                    <h3>{{ block.settings.Heading_1 }}</h3>
+                    <p>{{ block.settings.text_1 }}</p>
+                    <div class="line-image"><img src="{{ block.settings.image_line |img_url:'master' }}"></div>
+                    <div class="shop-button">
+                      <a href="{{ block.settings.url_shop }}">{{ block.settings.Button_shop }}</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          </div>
+      {% endcase %}
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+    $(".banner-slider").slick({
+   slidesToShow: 1,
+   infinite:true,
+   slidesToScroll: 1,
+   autoplay: true,
+   autoplaySpeed: 6000,
+   dots: true
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Custom New Banner",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "text",
+        "name": "image-text",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "bg-img",
+            "label": "Select Background Image"
+          },
+          {
+            "type": "text",
+            "id": "css1",
+            "label": "ADD CSS CLASS"
+          },
+          {
+            "type": "html",
+            "id": "Heading",
+            "label": "Enter Heading"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Enter Text"
+          }, {
+            "type": "checkbox",
+            "id": "stars",
+            "label": "Stars"
+          }, {
+            "type": "range",
+            "id": "rw_star",
+            "min": 1,
+            "max": 5,
+            "step": 1,
+            "label": "Starts",
+            "default": 3
+          }, {
+            "type": "text",
+            "id": "text1",
+            "label": "Enter Text"
+          }, {
+            "type": "text",
+            "id": "text2",
+            "label": "Enter Text"
+          }, {
+            "type": "text",
+            "id": "shop_button",
+            "label": "Button"
+          }, {
+            "type": "url",
+            "id": "shop_url",
+            "label": "Shop URL"
+          }, {
+            "type": "text",
+            "id": "learn_button",
+            "label": "Button"
+          }, {
+            "type": "url",
+            "id": "learn_url",
+            "label": "Learn URL"
+          }, {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Select Image"
+          }
+        ]
+      }, {
+        "type": "image",
+        "name": "background image",
+        "settings": [
+          {
+            "type": "text",
+            "id": "head",
+            "label": "Enter Heading"
+          },
+          {
+            "type": "text",
+            "id": "subtext",
+            "label": "Enter Text"
+          },
+          {
+            "type": "text",
+            "id": "subtext1",
+            "label": "Enter Text"
+          },
+          {
+            "type": "text",
+            "id": "subtext2",
+            "label": "Enter Text"
+          }, {
+            "type": "text",
+            "id": "button",
+            "label": "Button 1"
+          }, {
+            "type": "url",
+            "id": "button_url",
+            "label": "Button 1 URL"
+          }, {
+            "type": "text",
+            "id": "button_2",
+            "label": "Button 2"
+          }, {
+            "type": "url",
+            "id": "button_2_url",
+            "label": "Button 2 URL"
+          }, {
+            "type": "image_picker",
+            "id": "bg_image",
+            "label": "Select Image"
+          }, {
+            "type": "image_picker",
+            "id": "mobile_image",
+            "label": "Select Image Mobile"
+          }, {
+            "type": "text",
+            "id": "css",
+            "label": "ADD CSS CLASS"
+          }
+        ]
+      }, {
+        "type": "slide",
+        "name": "bg 2 images",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "bg_color",
+            "label": "Select Background Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_left",
+            "label": "Select Left Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_right",
+            "label": "Select Right Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_line",
+            "label": "Select Line Image"
+          }, {
+            "type": "text",
+            "id": "Heading_1",
+            "label": "Enter Heading"
+          }, {
+            "type": "html",
+            "id": "text_1",
+            "label": "Enter Text"
+          }, {
+            "type": "text",
+            "id": "Button_shop",
+            "label": "Button"
+          }, {
+            "type": "url",
+            "id": "url_shop",
+            "label": "URL"
+          }, {
+            "type": "image_picker",
+            "id": "mobile_image",
+            "label": "Select Mobile Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom New Banner"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

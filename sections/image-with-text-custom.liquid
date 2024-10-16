@@ -1,0 +1,46 @@
+ <div class="custom-home-text-image">
+<div class="container"><div class="custom-img-text">
+<div class="image-gallery">
+{%for block in section.blocks %}  
+<div class="image-sect-custom">
+   <img src="{{block.settings.custom_image | img_url:'master'}}"/>
+   <a href="{{ block.settings.title_text_link }}"><h4>{{ block.settings.heading_text }}</h4></a>
+</div>
+  {%endfor%}
+  </div>
+  </div></div>
+  </div>
+
+
+{% schema %}
+  {
+    "name": "image with text",
+    "blocks": [{
+      "type": "image",
+       "name": "image Block",
+       "settings": [
+         {
+            "type": "image_picker",
+      "id": "custom_image",
+      "label": "Your image"
+         },
+         {
+            "type": "url",
+            "id": "title_text_link",
+            "label": "title url"
+         },
+         {
+            "type": "text",
+      "id": "heading_text",
+      "label": "your text"
+         }
+       ]
+    }],
+    "presets": [
+      {
+        "category": "image",
+        "name": "image with text"
+      }
+    ]
+  }
+{% endschema %}

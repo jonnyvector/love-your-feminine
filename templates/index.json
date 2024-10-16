@@ -1,0 +1,172 @@
+{
+  "sections": {
+    "custom_menu_inner_pages_yXzfmp": {
+      "type": "custom-menu-inner-pages",
+      "disabled": true,
+      "settings": {
+        "menu": "dev-menu",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "cstm_new_banner_FXzJMD": {
+      "type": "cstm-new-banner",
+      "blocks": {
+        "slide_LybhyB": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "shopify:\/\/shop_images\/got_bg.png",
+            "image_left": "shopify:\/\/shop_images\/right_image.png",
+            "image_right": "shopify:\/\/shop_images\/left_image.png",
+            "image_line": "shopify:\/\/shop_images\/line.png",
+            "Heading_1": "GOT BREASTS?",
+            "text_1": "Then your deodorant matters <span>more than you think!<\/span>",
+            "Button_shop": "Shop Now",
+            "url_shop": "shopify:\/\/products\/love-your-pits-deodorant-balm",
+            "mobile_image": "shopify:\/\/shop_images\/mobile-banner.png"
+          }
+        },
+        "text_6NgGHd": {
+          "type": "text",
+          "settings": {
+            "css1": "",
+            "Heading": "Say Hello to <br> Love Your Pits <span>TM<\/span> deodorant balms",
+            "text": "Because the health of your armpits and breasts are intimately connected.",
+            "stars": false,
+            "rw_star": 3,
+            "text1": "",
+            "text2": "",
+            "shop_button": "SHOP NOW",
+            "shop_url": "shopify:\/\/products\/love-your-pits-deodorant-balm",
+            "learn_button": "",
+            "learn_url": "shopify:\/\/pages\/resources",
+            "image": "shopify:\/\/shop_images\/main_banner.png"
+          }
+        },
+        "image_d4HKPx": {
+          "type": "image",
+          "settings": {
+            "head": "The Most Advanced Dual Purpose Deodorants",
+            "subtext": "made for Every Woman at Every Age",
+            "subtext1": "",
+            "subtext2": "",
+            "button": "Shop Feminine deodorant",
+            "button_url": "shopify:\/\/products\/feminine-72-hour-deodorant-and-detox-balm",
+            "button_2": "Shop Armpit Deodorant",
+            "button_2_url": "shopify:\/\/products\/love-your-pits-deodorant-balm",
+            "bg_image": "shopify:\/\/shop_images\/most_advance.png",
+            "mobile_image": "shopify:\/\/shop_images\/most_advance.png",
+            "css": "Slide1"
+          }
+        },
+        "image_cNbACg": {
+          "type": "image",
+          "settings": {
+            "head": "Naturally Powerful",
+            "subtext": "Herbal Healing Feminine Care Remedies",
+            "subtext1": "Every herb was chosen for its powerful ability to support your everyday feminine health – because your feminine body was brilliantly designed to maintain and sustain its health with proactive and intentional care....and",
+            "subtext2": "your feminine health matters a lot!",
+            "button": "Shop Now",
+            "button_url": "shopify:\/\/products\/love-your-pits-deodorant-balm",
+            "button_2": "",
+            "button_2_url": "",
+            "bg_image": "shopify:\/\/shop_images\/Naturall.png",
+            "mobile_image": "shopify:\/\/shop_images\/Naturall.png",
+            "css": "Slide3"
+          }
+        },
+        "text_9GQwfG": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "bg-img": "shopify:\/\/shop_images\/bg_image.png",
+            "css1": "",
+            "Heading": "Every Woman <br>\nEveryday.",
+            "text": "has a healthy breast-care opportunity that begins with her armpits",
+            "stars": true,
+            "rw_star": 3,
+            "text1": "the world's first Smart deodorant made for women",
+            "text2": "because the health of your armpits and breasts are connected.",
+            "shop_button": "SHOP NOW",
+            "shop_url": "shopify:\/\/products\/love-your-pits-deodorant-balm",
+            "learn_button": "",
+            "learn_url": "",
+            "image": "shopify:\/\/shop_images\/bannerhome_6ac38b92-2a88-439a-a1fc-e159a4fe3807.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_LybhyB",
+        "text_6NgGHd",
+        "image_d4HKPx",
+        "image_cNbACg",
+        "text_9GQwfG"
+      ],
+      "settings": {
+      }
+    },
+    "product_slider_gAQDDm": {
+      "type": "product_slider",
+      "blocks": {
+        "product_n7RtdF": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3d_armpit_detox_mask_flat_picture.png",
+            "variant_title": "",
+            "product_title": "Armpit Detox Mask",
+            "price": "$28.00",
+            "button": "",
+            "button_url": "shopify:\/\/products\/love-your-pits-detoxification-mask"
+          }
+        },
+        "product_aYjfpy": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3d_vulva_care_soft_rose_DETOX_BALM.png",
+            "variant_title": "",
+            "product_title": "Vulva Detox Mask",
+            "price": "$28.00",
+            "button": "",
+            "button_url": "shopify:\/\/products\/vulva-detox-mask"
+          }
+        },
+        "product_BNPjfy": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3D_VULVA_DEODORANT_CLOSED_CONTAINER_FRANKINCENSE.png",
+            "variant_title": "",
+            "product_title": "Feminine Deodorant",
+            "price": "$24.95",
+            "button": "",
+            "button_url": "shopify:\/\/products\/feminine-72-hour-deodorant-and-detox-balm"
+          }
+        },
+        "product_kUyEbn": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3d_72_hour_deodorant_lavender_rose_CLOSED_CONTAINER.png",
+            "variant_title": "",
+            "product_title": "ARMPIT DEODORANT",
+            "price": "$15.00",
+            "button": "",
+            "button_url": "shopify:\/\/products\/love-your-pits-deodorant-balm"
+          }
+        }
+      },
+      "block_order": [
+        "product_n7RtdF",
+        "product_aYjfpy",
+        "product_BNPjfy",
+        "product_kUyEbn"
+      ],
+      "settings": {
+        "product": "love-your-breasts™-deodorant-balm-2oz",
+        "header": "TAKE CHARGE OF YOUR FEMININE HEALTH NATURALLY"
+      }
+    }
+  },
+  "order": [
+    "custom_menu_inner_pages_yXzfmp",
+    "cstm_new_banner_FXzJMD",
+    "product_slider_gAQDDm"
+  ]
+}

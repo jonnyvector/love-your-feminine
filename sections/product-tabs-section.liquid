@@ -1,0 +1,110 @@
+<div class="teb-cust-sect product-tab-section">
+  <div class="container">
+    <div class="row">
+  <div class="cstm_heading_section">
+   
+      
+{% if product.metafields.custom.about != blank %}<div class="tab-heading-sect"><h4><button class="tablinks"  {% if product.metafields.custom.ingredients == blank %}id ="defaultOpen"{% endif %}  onclick="openCity(event, '{{section.settings.tab_heading_text}}')">{{section.settings.tab_heading_text}}</button></h4></div>
+{% endif %}
+ {% if product.metafields.custom.ingredients != blank %} <div class="tab-heading-sect"><h4><button class="tablinks"  {% if product.metafields.custom.ingredients != blank %}id ="defaultOpen"{% endif %} onclick="openCity(event, '{{section.settings.tab_heading_text1}}')">{{section.settings.tab_heading_text1}}</button></h4></div>
+{% endif %}
+
+   {% if product.metafields.custom.directions != blank %} <div class="tab-heading-sect"><h4><button class="tablinks"  onclick="openCity(event, '{{section.settings.tab_heading_text2}}')">{{section.settings.tab_heading_text2}}</button></h4></div>
+{% endif %}
+     {% if product.metafields.custom.why_a_balm != blank %}<div class="tab-heading-sect"><h4><button class="tablinks"  onclick="openCity(event, '{{section.settings.tab_heading_text3}}')">{{section.settings.tab_heading_text3}}</button></h4></div>
+{% endif %}
+   {% if product.metafields.custom.our_never_promise != blank %} <div class="tab-heading-sect"><h4><button class="tablinks"  onclick="openCity(event, '{{section.settings.tab_heading_text4}}')">{{section.settings.tab_heading_text4}}</button></h4></div>
+ {% endif %}
+   {% if product.metafields.custom.our_always_promise != blank %}  <div class="tab-heading-sect"><h4><button class="tablinks"  onclick="openCity(event, '{{section.settings.tab_heading_text5}}')">{{section.settings.tab_heading_text5}}</button></h4></div>
+      {% endif %} 
+    
+
+  </div>
+  <div class="text_description_section">
+
+{% if product.metafields.custom.about != blank %} <div class="tab-text-sect">
+<div id="{{section.settings.tab_heading_text}}" class="tabcontent">{{ product.metafields.custom.about }}</div>
+   </div>{% endif %}
+ {% if product.metafields.custom.ingredients != blank %}    <div class="tab-text-sect">
+<div id="{{section.settings.tab_heading_text1}}" class="tabcontent">{{ product.metafields.custom.ingredients }}</div>
+   </div>{% endif %}
+   {% if product.metafields.custom.directions != blank %}   <div class="tab-text-sect">
+<div id="{{section.settings.tab_heading_text2}}" class="tabcontent">{{ product.metafields.custom.directions }}</div>
+   </div>{% endif %}
+  {% if product.metafields.custom.why_a_balm != blank %}  <div class="tab-text-sect">
+<div id="{{section.settings.tab_heading_text3}}" class="tabcontent">{{ product.metafields.custom.why_a_balm }}</div>
+   </div>{% endif %}
+  {% if product.metafields.custom.our_never_promise != blank %}  <div class="tab-text-sect">
+<div id="{{section.settings.tab_heading_text4}}" class="tabcontent">{{ product.metafields.custom.our_never_promise }}</div>
+   </div>{% endif %}
+   {% if product.metafields.custom.our_always_promise != blank %}  <div class="tab-text-sect">
+<div id="{{section.settings.tab_heading_text5}}" class="tabcontent">{{ product.metafields.custom.our_always_promise }}</div>
+   </div>{% endif %}
+  
+  </div>
+    </div>
+  </div>
+  </div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active","");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+ // Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+  
+{% schema %}
+  {
+    "name": "produvt tab section",
+    	"settings": [
+         {
+            "type": "text",
+      "id": "tab_heading_text",
+      "label": "Your tab heading text"
+         },
+          {
+            "type": "text",
+      "id": "tab_heading_text1",
+      "label": "Your tab heading text"
+         },
+          {
+            "type": "text",
+      "id": "tab_heading_text2",
+      "label": "Your tab heading text"
+         },
+          {
+            "type": "text",
+      "id": "tab_heading_text3",
+      "label": "Your tab heading text"
+         },
+          {
+            "type": "text",
+      "id": "tab_heading_text4",
+      "label": "Your tab heading text"
+         },
+          {
+            "type": "text",
+      "id": "tab_heading_text5",
+      "label": "Your tab heading text"
+         }
+        ],
+    "presets": [
+      {
+        "name":"produvt tab section"
+      }
+    ]
+  }
+{% endschema %}

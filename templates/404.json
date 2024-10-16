@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "5501df97-1d0d-4398-a07f-dcf691637ccd": {
+      "type": "custom-menu-section",
+      "disabled": true,
+      "settings": {
+        "menu": "custom-menu",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "main": {
+      "type": "main-404",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "5501df97-1d0d-4398-a07f-dcf691637ccd",
+    "main"
+  ]
+}
