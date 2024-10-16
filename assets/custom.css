@@ -4828,7 +4828,7 @@ body.gradient-page\.breast-cream .text-sect-right h5:nth-child(2) {
 }
 .card__inner.color-background-2.gradient.ratio .card__media .media img {
   height: 300px;
-  object-fit: cover;
+  object-fit: contain;
 }
 body.gradient-collection
   .product-card-wrapper
@@ -7960,7 +7960,7 @@ footer.footer.color-background-1
   }
   .card__inner.color-background-2.gradient.ratio .card__media .media img {
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
   }
   .card__inner.color-background-2.gradient.ratio,
   .card__inner.color-background-2.gradient.ratio
@@ -11298,7 +11298,7 @@ footer.footer.color-background-1
     height: 155px;
   }
   .card__inner.color-background-2.gradient.ratio .card__media .media img {
-    height: 175px;
+    /* height: 175px; */
     object-fit: contain;
   }
   .custom-home-text-image-button
