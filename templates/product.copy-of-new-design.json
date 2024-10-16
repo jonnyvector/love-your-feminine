@@ -167,7 +167,7 @@
           "settings": {
             "heading": "{{ product.metafields.custom.question_4.value }}",
             "icon": "question_mark",
-            "content": "<p>{{ product.metafields.custom.answer_4 | metafield_tag }}<\/p>",
+            "content": "",
             "page": ""
           }
         },
