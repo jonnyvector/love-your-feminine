@@ -1,0 +1,177 @@
+{
+  "sections": {
+    "3705a223-84b6-41a9-99f7-7d44158e092f": {
+      "type": "custom-menu-section",
+      "disabled": true,
+      "settings": {
+        "menu": "custom-menu",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "a0c52310-d02d-43e5-aacc-3aaf64d1bbd5": {
+      "type": "deodrent-first-section-custom",
+      "custom_css": [],
+      "settings": {
+        "deodrent_first_image_left": "shopify:\/\/shop_images\/thehealthybreastco-picture-of-woman-huggingherself-_1_-_1.png",
+        "deodrent_first_heading_text_right": "LOVE YOUR BREASTS-HEALING HERBAL REMEDY BREAST CREAMS & OILS",
+        "deodrent_first_inner_heading_text_right2": "",
+        "deodrent_first_inner_heading_text_right": "Because Healthy Breasts For Life <br>Begin With Everyday Healthy Habits",
+        "deodrent_first_text_img_shop_link": "shopify:\/\/products\/breast-cream",
+        "deodrent_first_text_img_shop_name": "SHOP BREAST CREAM",
+        "deodrent_first_text_img_Learn_link": "shopify:\/\/products\/breast-oil",
+        "deodrent_first_text_img_learn_name": "SHOP BREAST OILS"
+      }
+    },
+    "d5a000d8-1f3c-45bc-bc17-e9adff92cc73": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "most-popular",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b754db6d-19fb-47e2-a71c-fc7ae3c53e4a": {
+      "type": "feature-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "FEATURE PRODUCTS",
+        "collection": "most-popular",
+        "button": "SHOP NOW"
+      }
+    },
+    "7d0a3fb5-d34b-4e25-9ddf-128ef16432dc": {
+      "type": "breast-cream-image-text",
+      "settings": {
+        "custom_image_left": "shopify:\/\/shop_images\/shop-all-img_9aa6a194-1fea-40e4-8bd2-32bfb6bdbe36.png",
+        "heading_text_right": "TARGETED DAILY BREAST WELLNESS SUPPORT",
+        "inner_heading_text_right": "Our Love Your Healthy Breasts - Breast Cream and Oil remedies are innovatively formulated using ancient herbal healing wisdoms.",
+        "inner_heading_text_right2": "Every ingredient was intentionally and thoughtfully picked for their ability to support a healthy breast waste removal system and help promote a balanced anti-inflammatory response.",
+        "text_img_shop_link": "",
+        "text_img_shop_name": "",
+        "text_img_Learn_link": "",
+        "text_img_learn_name": ""
+      }
+    },
+    "38d37368-6f36-4170-a5f0-0a3acd26654d": {
+      "type": "cstm_blog_section",
+      "disabled": true,
+      "settings": {
+        "dirobi_blog_heading": "FROM OUR BLOG"
+      }
+    },
+    "6674258e-ee14-4115-87a5-cd5dc8edc1f3": {
+      "type": "deodrent-custom-blog-section",
+      "blocks": {
+        "e0ebdb00-6fb1-4e03-b1c3-f5528b63d202": {
+          "type": "blog",
+          "settings": {
+            "blog_image_id": "shopify:\/\/shop_images\/beautiful-woman-s-body-portrait.png",
+            "blog_head_text": "Top 5 Underarm Facts",
+            "blog_text": "There is more to your underarms than you've been led to believe! Yes, they are not just a source of odor. They gift you everyday with a healthy-breast opportunity.",
+            "blog_Learn_link": "shopify:\/\/blogs\/food\/top-5-ok-6-underarm-facts",
+            "blog_learn_name": "Learn More"
+          }
+        },
+        "72ea0c25-c45a-4fbc-9733-d6fcd424f6e5": {
+          "type": "blog",
+          "settings": {
+            "blog_image_id": "shopify:\/\/shop_images\/studio-shot-of-happy-young-european-woman-makes-heart-gesture-over-chest-expresses-love-smiles-gently-wears-casual-jumper-isolated-over-pink-backgroun.png",
+            "blog_head_text": "Top 5 Love Your Breast Deodorant Facts",
+            "blog_text": "Introducing Love Your Breasts Deodorant Balms - The only deodorant of its kind, providing a potent healing and detoxification remedy for armpits, in addition to providing 72 hours of complete odor protection.",
+            "blog_Learn_link": "shopify:\/\/blogs\/news\/top-5-love-your-breast-deodorant-facts",
+            "blog_learn_name": "Learn More"
+          }
+        },
+        "37743ad3-ff29-4fc7-ab3c-19b4e738ebc1": {
+          "type": "blog",
+          "settings": {
+            "blog_image_id": "shopify:\/\/shop_images\/close-up-on-woman-revealing-her-armpit.png",
+            "blog_head_text": "Top 10 Breast Lymphatic Facts",
+            "blog_text": "Your breasts' lymph system has an arguous job. That said, it is perfectly equipped to handle it, especially with your daily proactive and intentional support. Let's look at what your lymphatic system does for your breasts.",
+            "blog_Learn_link": "shopify:\/\/blogs\/general\/top-10-breast-lymphatic-facts",
+            "blog_learn_name": "Learn More"
+          }
+        },
+        "8fe11282-a3e9-4692-899c-23cde9acadfd": {
+          "type": "blog",
+          "settings": {
+            "blog_image_id": "shopify:\/\/shop_images\/AdobeStock_89927638_Preview.png",
+            "blog_head_text": "Top 10 Healthy Breast Facts",
+            "blog_text": "Your breasts were perfectly designed to maintain and sustain their health. Yes, this is true - BUT, today's modern day lifestyles put a heavier burden on this perfect design. Let's look at how we can support our breasts' daily healing process.",
+            "blog_Learn_link": "shopify:\/\/blogs\/general\/top-10-healthy-breast-facts",
+            "blog_learn_name": "Learn more"
+          }
+        },
+        "e6425460-f53a-48b4-a332-a4fc32636cdc": {
+          "type": "blog",
+          "disabled": true,
+          "settings": {
+            "blog_image_id": "shopify:\/\/shop_images\/studio-shot-of-happy-young-european-woman-makes-heart-gesture-over-chest-expresses-love-smiles-gently-wears-casual-jumper-isolated-over-pink-backgroun.png",
+            "blog_head_text": "Top 5 Love Your Breast Deodorant Facts",
+            "blog_text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "blog_Learn_link": "shopify:\/\/blogs\/news\/top-5-love-your-breast-deodorant-facts",
+            "blog_learn_name": "Learn more"
+          }
+        },
+        "1c3a5983-7e4f-4f2a-be1f-c59e75f426dd": {
+          "type": "blog",
+          "settings": {
+            "blog_image_id": "shopify:\/\/shop_images\/picture_of_underarm_and_breast_lymph_nodes_and_lymph_1.jpg",
+            "blog_head_text": "bla bla",
+            "blog_text": "nnnnnnnnnnnnnnnnnnnnnn",
+            "blog_Learn_link": "shopify:\/\/blogs\/news\/top-5-love-your-breast-deodorant-facts",
+            "blog_learn_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "e0ebdb00-6fb1-4e03-b1c3-f5528b63d202",
+        "72ea0c25-c45a-4fbc-9733-d6fcd424f6e5",
+        "37743ad3-ff29-4fc7-ab3c-19b4e738ebc1",
+        "8fe11282-a3e9-4692-899c-23cde9acadfd",
+        "e6425460-f53a-48b4-a332-a4fc32636cdc",
+        "1c3a5983-7e4f-4f2a-be1f-c59e75f426dd"
+      ],
+      "settings": {
+        "blog_heading_text": "FROM OUR BLOG"
+      }
+    }
+  },
+  "order": [
+    "3705a223-84b6-41a9-99f7-7d44158e092f",
+    "main",
+    "a0c52310-d02d-43e5-aacc-3aaf64d1bbd5",
+    "d5a000d8-1f3c-45bc-bc17-e9adff92cc73",
+    "b754db6d-19fb-47e2-a71c-fc7ae3c53e4a",
+    "7d0a3fb5-d34b-4e25-9ddf-128ef16432dc",
+    "38d37368-6f36-4170-a5f0-0a3acd26654d",
+    "6674258e-ee14-4115-87a5-cd5dc8edc1f3"
+  ]
+}

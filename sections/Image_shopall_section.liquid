@@ -1,0 +1,169 @@
+ <div class="Image_shopall_section new_home">
+ <div class="container">
+   <div class="row desktop_section">
+     
+{%for block in section.blocks %} 
+     {% if block.settings.image_alignment=='left' %}
+   <div class="col-md-6 image_section">
+<div class="img-sect-left">
+  <img src="{{block.settings.custom_image_left | img_url:'master'}}"/>
+  </div>
+ </div>
+  <div class="col-md-6 text_section">
+    <div class="right-content-cstm">
+<div class="text-sect-right">
+  <h4>{{ block.settings.heading_text_right }}</h4>
+  </div>
+<div class="content_section">
+  <p>{{ block.settings.inner_content }}</p>
+</div>
+    {% if block.settings.text_img_shop_link %}
+    <div class="shop-learn-button">
+      <div class="shop-learn-butnn main_btn">
+       <a href="{{ block.settings.text_img_shop_link }}" class="black-btn">{{ block.settings.text_img_shop_name }}</a>
+        </div>
+       
+    </div>
+      {% endif %}
+  </div>
+ </div>{% if block.settings.reverse-titles %}
+    <div class="arrow_down_section"><i class="fa-solid fa-arrow-down"></i></div>{% endif %}  
+    
+       {% elsif block.settings.image_alignment=='right' %}
+  
+  <div class="col-md-6 text_section">
+<div class="text-sect-right wright-text ">
+   <div class="right-content-cstm">
+  <h4>{{ block.settings.heading_text_right }}</h4>
+  </div>
+<div class="content_section">
+  <p>{{ block.settings.inner_content }}</p>
+</div>
+    {% if block.settings.text_img_shop_link %}
+    <div class="shop-learn-button">
+      <div class="shop-learn-butnn main_btn">
+       <a href="{{ block.settings.text_img_shop_link }}" class="black-btn">{{ block.settings.text_img_shop_name }}</a>
+        </div>
+       
+    </div>
+  {% endif %}
+</div>
+ </div>
+ <div class="col-md-6 image_section">
+<div class="img-sect-left">
+  <img src="{{ block.settings.custom_image_left | img_url:'master'}}"/>
+  </div>
+ </div>  {% if block.settings.reverse-titles %}
+    <div class="arrow_down_section"><i class="fa-solid fa-arrow-down"></i></div>{% endif %}  {% endif %}{%endfor%}
+    
+   </div>
+  <div class="row mobile_section" style="display:none">
+     
+{%for block in section.blocks %} 
+   
+ <div class="cstm_wrap_all_div">
+     <div class="col-md-6 image_section">
+<div class="img-sect-left">
+  <img src="{{block.settings.custom_image_left | img_url:'master'}}"/>
+  </div>
+ </div>
+  <div class="col-md-6 text_section">
+<div class="text-sect-right">
+  <h4>{{ block.settings.heading_text_right }}</h4>
+  </div>
+<div class="content_section">
+  <p>{{ block.settings.inner_content }}</p>
+</div>
+    
+    <div class="shop-learn-button">
+      <div class="shop-learn-butnn main_btn">
+       <a href="{{ block.settings.text_img_shop_link }}" class="black-btn">{{ block.settings.text_img_shop_name }}</a>
+        </div>
+       
+    </div>
+  
+ </div>
+   {% if block.settings.reverse-titles %}
+    <div class="arrow_down_section"><i class="fa-solid fa-arrow-down"></i></div>{% endif %}  
+    
+ </div>
+
+  {%endfor%}
+    
+   </div>
+<!-- <div class="back-top-section"><span><i class="fa-solid fa-chevron-up"></i></span><p>BACK TO TOP</p></div> -->
+   
+ </div>
+ </div>
+
+
+{% schema %}
+  {
+    "name": "left_right_image",
+    "settings": [  
+ 
+       
+    ],
+    "blocks": [{
+      "type": "images",
+       "name": "image text Block",
+       "settings": [
+ {
+          "type": "checkbox",
+          "id": "reverse-titles",
+          "label": "ArrowDown",
+          "default": false
+        },
+         
+          {
+  "type": "radio",
+  "id": "image_alignment",
+  "label": "image_alignment",
+  "options": [
+    {
+      "value": "left",
+      "label": "Left"
+    },
+    {
+      "value": "right",
+      "label": "right"
+    }
+  ],
+  "default": "left"
+},
+            {
+            "type": "image_picker",
+      "id": "custom_image_left",
+      "label": "Your image"
+         },
+      {
+            "type": "text",
+            "id": "heading_text_right",
+            "label": "Add Heading text"
+         },
+         {
+            "type": "textarea",
+            "id": "inner_content",
+            "label": "Add inner Heading text"
+         },
+         {
+            "type": "url",
+            "id": "text_img_shop_link",
+            "label": "Shop Now url"
+         },
+      {
+            "type": "text",
+            "id": "text_img_shop_name",
+            "label": "Shop Now"
+         }
+      ]
+    }
+  ],   
+    "presets": [
+      {
+        "category": "image",
+        "name": "left_right_image"
+      }
+    ]
+  }
+{% endschema %}

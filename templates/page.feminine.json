@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "custom_menu_inner_pages_yXzfmp": {
+      "type": "custom-menu-inner-pages",
+      "settings": {
+        "menu": "feminine-menu-desktop",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "home_banner_9Nw7bk": {
+      "type": "home-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_final-xd.png",
+        "img": "shopify:\/\/shop_images\/mobile-banner.png",
+        "text-1": "Experience the Joy",
+        "text-2": "you get from loving your feminine",
+        "text-3": "Discover our full range of All Natural and Organic Herbal Healing Vaginal and Vulva products.",
+        "deodrent_first_text_img_shop_link": "shopify:\/\/pages\/vulva-wellness",
+        "deodrent_first_text_img_shop_name": "SHOP VULVA WELLNESS",
+        "deodrent_first_text_img_Learn_link": "shopify:\/\/pages\/vaginal",
+        "deodrent_first_text_img_learn_name": "SHOP VAGINAL WELLNESS"
+      }
+    },
+    "banner_single_slide_TeWcUw": {
+      "type": "banner_single_slide",
+      "blocks": {
+        "slide_gAMR88": {
+          "type": "slide",
+          "settings": {
+            "bg_color": "shopify:\/\/shop_images\/got_bg.png",
+            "image_left": "shopify:\/\/shop_images\/right_image.png",
+            "image_right": "shopify:\/\/shop_images\/left_image.png",
+            "image_line": "shopify:\/\/shop_images\/line.png",
+            "Heading_1": "Got  Brea?ts",
+            "text_1": "Then your deodorant matters <span>more than you think!<\/span>",
+            "Button_shop": "Shop Now",
+            "url_shop": "shopify:\/\/products\/deodorant-breast-trauma",
+            "mobile_image": "shopify:\/\/shop_images\/banner-_1_47073297-24e1-4956-ae01-726962596c8c.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slide_gAMR88"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "product_slider_gAQDDm": {
+      "type": "product_slider",
+      "blocks": {
+        "product_n7RtdF": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3dvulvacarephytobalmrejuvenatingforwomenover40.png",
+            "variant_title": "FEMININE",
+            "product_title": "WELLNESS",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/products\/love-your-pits™-deodorant-balm-copy"
+          }
+        },
+        "product_aYjfpy": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/Final_4K_14_2.png",
+            "variant_title": "VAGINAL",
+            "product_title": "WELLNESS",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/pages\/vaginal"
+          }
+        },
+        "product_BNPjfy": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/website_picture_2_ounce_white_tin_can_original_deodorant_citrus_00fcede0-25f2-4822-a4ff-7d1a5460042f.png",
+            "variant_title": "PITS & TITS",
+            "product_title": "WELLNESS",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/products\/love-your-pits-deodorant-balm"
+          }
+        },
+        "product_VmEdpp": {
+          "type": "product",
+          "settings": {
+            "varinat_image": "shopify:\/\/shop_images\/3dbreastoilxtrastronglavenderrose2oz.jpg",
+            "variant_title": "BREAST",
+            "product_title": "WELLNESS",
+            "price": "$18.00",
+            "button": "BUY NOW",
+            "button_url": "shopify:\/\/products\/breast-oil"
+          }
+        }
+      },
+      "block_order": [
+        "product_n7RtdF",
+        "product_aYjfpy",
+        "product_BNPjfy",
+        "product_VmEdpp"
+      ],
+      "settings": {
+        "product": "love-your-breasts™-deodorant-balm-2oz",
+        "header": "TAKE CHARGE OF YOUR FEMININE HEALTH NATURALLY"
+      }
+    }
+  },
+  "order": [
+    "custom_menu_inner_pages_yXzfmp",
+    "home_banner_9Nw7bk",
+    "banner_single_slide_TeWcUw",
+    "product_slider_gAQDDm"
+  ]
+}

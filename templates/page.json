@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "893b92d8-07e8-4cdc-b426-8527a996e2ff": {
+      "type": "custom-menu-section",
+      "disabled": true,
+      "settings": {
+        "menu": "custom-menu",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "893b92d8-07e8-4cdc-b426-8527a996e2ff",
+    "main"
+  ]
+}

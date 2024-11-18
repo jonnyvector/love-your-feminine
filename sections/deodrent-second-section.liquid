@@ -1,0 +1,58 @@
+<div class="custom-deodrent-second">
+<div class="heading-section-deodrent-second">
+  {%for block in section.blocks %} 
+    <div class="text-sect-deodrent-second"> 
+<img src="{{ block.settings.deodrent_second_image_id | img_url:'master' }}">
+  
+<div class="text-deodrent-second">
+<h6>{{ block.settings.deodrent_second_heading }}</h6>
+    <p>{{ block.settings.deodrent_second_description }}</p>
+</div>
+      </div>
+    {% endfor %}
+</div>
+  </div>
+
+
+
+
+
+{% schema %}
+  {
+    "blocks": [
+     {
+    "name": "Deodrent text",
+       "type": "text",
+    "settings": [
+       {
+            "type": "image_picker",
+            "id": "deodrent_second_image_id",
+            "label": "Image"
+         },
+       {
+      "type": "text",
+      "id": "deodrent_second_heading",
+      "label": "headline"
+    },
+        {
+      "type": "text",
+      "id": "deodrent_second_description",
+      "label": "description"
+    }
+    ]
+  }
+    ],
+    "presets": [
+      {
+        "category": "text",
+        "name": "text deodrent second"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

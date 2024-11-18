@@ -1,0 +1,41 @@
+<div class="resorce-first-sect">
+
+<div class="resorce-first-head">
+<h4>{{ section.settings.resorce_head_text }}</h4>
+</div>
+  <div class="resorce-first-text-cust">
+<p>{{ section.settings.resorce_first_text }}</p>
+</div>
+  </div>
+
+
+
+
+{% schema %}
+{
+    "name": "resorce",
+    "settings": [
+         {
+            "type": "text",
+      "id": "resorce_head_text",
+      "label": "heading"
+         },
+      {
+            "type": "text",
+      "id": "resorce_first_text",
+      "label": "text"
+         }
+    ],
+  "presets": [
+      {
+        "name":"resorce first custom"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

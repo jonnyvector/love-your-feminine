@@ -1,0 +1,427 @@
+{
+  "sections": {
+    "82c2dea6-6213-4402-b5f8-9839f302cf07": {
+      "type": "custom-menu-section",
+      "disabled": true,
+      "settings": {
+        "menu": "custom-menu",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "custom_menu_feminine_pdhA4e": {
+      "type": "custom-menu-feminine",
+      "disabled": true,
+      "settings": {
+        "menu": "feminine-menu-desktop",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "custom_menu_vaginal_8DFEq6": {
+      "type": "custom-menu-vaginal",
+      "disabled": true,
+      "settings": {
+        "menu": "vaginal-page",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "custom_menu_vulva_fxmrF7": {
+      "type": "custom-menu-vulva",
+      "disabled": true,
+      "settings": {
+        "menu": "vulva-wellness-menu-desktop",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "custom_menu_deodorant_ab4krV": {
+      "type": "custom-menu-deodorant",
+      "disabled": true,
+      "settings": {
+        "menu": "dev-menu",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "About",
+            "icon": "star",
+            "content": "<p>{{ product.metafields.custom.about | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "bottle",
+            "content": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Directions",
+            "icon": "map_pin",
+            "content": "<p>{{ product.metafields.custom.directions | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_wicEjm": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why_a_balm",
+            "icon": "leaf",
+            "content": "<p>{{ product.metafields.custom.why_a_balm | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_E6jCbg": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Our_always_promise",
+            "icon": "heart",
+            "content": "<p>{{ product.metafields.custom.our_always_promise | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "custom_liquid_LiTBLD": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<br>\n<h2 class=\"h4 accordion__title\">\nFAQS ?<\/h2>"
+          }
+        },
+        "collapsible_tab_AEiJyk": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.question_1.value }}",
+            "icon": "question_mark",
+            "content": "<p>{{ product.metafields.custom.answer_1 | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_EtLT3i": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.question_2.value }}",
+            "icon": "question_mark",
+            "content": "<p>{{ product.metafields.custom.answer_2 | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_j8PLnx": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.question_3.value }}",
+            "icon": "question_mark",
+            "content": "<p>{{ product.metafields.custom.answer_3 | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Q3brbd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.question_4.value }}",
+            "icon": "question_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "678a86f5-b78f-4f4f-89b0-e6884d013cc5": {
+          "type": "logo-section",
+          "settings": {
+            "logo-one": "shopify:\/\/shop_images\/388531.png",
+            "logotext-one": "Secure Payment",
+            "logo-two": "shopify:\/\/shop_images\/1034605.png",
+            "logotext-two": "SSL Promise"
+          }
+        },
+        "f2b42888-646b-4283-a1c2-3798b302387a": {
+          "type": "shopify:\/\/apps\/tydal-reviews\/blocks\/star-rating\/5f785e18-66cc-4519-8181-565d1cce1705",
+          "disabled": true,
+          "settings": {}
+        },
+        "db75fee6-4601-48d2-8a0d-45cd35ab299f": {
+          "type": "shopify:\/\/apps\/tydal-reviews\/blocks\/reviews-widget\/5f785e18-66cc-4519-8181-565d1cce1705",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible_tab_wicEjm",
+        "collapsible_tab_E6jCbg",
+        "custom_liquid_LiTBLD",
+        "collapsible_tab_AEiJyk",
+        "collapsible_tab_EtLT3i",
+        "collapsible_tab_j8PLnx",
+        "collapsible_tab_Q3brbd",
+        "share",
+        "678a86f5-b78f-4f4f-89b0-e6884d013cc5",
+        "f2b42888-646b-4283-a1c2-3798b302387a",
+        "db75fee6-4601-48d2-8a0d-45cd35ab299f"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "7fecb0ec-d9e2-4a42-b110-f6980394da20": {
+      "type": "product-tabs-section",
+      "disabled": true,
+      "settings": {
+        "tab_heading_text": "About",
+        "tab_heading_text1": "Ingredients",
+        "tab_heading_text2": "Directions",
+        "tab_heading_text3": "Why a balm",
+        "tab_heading_text4": "Our NEVER promise",
+        "tab_heading_text5": "Our ALWAYS Promise"
+      }
+    },
+    "6d04598c-e69a-463c-8068-57c2cf35cb22": {
+      "type": "tab-section-custom",
+      "blocks": {
+        "26762459-41c7-49be-b1e7-0068cd1cabee": {
+          "type": "Tab",
+          "settings": {
+            "tab_heading_text": "About",
+            "tab_head_text": "Underarm care is powerful breast care. For all intents and purposes, underarm care is breast care.  This is because from 75% up to 90% of cellular waste material in your breasts is filtered out and neutralized within the cluster of lymph nodes located under the skin or your armpit."
+          }
+        },
+        "1223bedd-7d57-46d2-bc46-ab7ff7b9e4e6": {
+          "type": "Tab",
+          "settings": {
+            "tab_heading_text": "Ingredients",
+            "tab_head_text": "We make Balm deodorants because touching your armpits is not only good for them, it's super smart. Touching can stimulate lymph movement. But also, your fingertips are like little computers. They remember textures and shapes. This is important because sometimes the lymph nodes under your armpits develop physical changes – like swelling, increased temperature, or they can become sore. Touch is the best way – the most immediate way to make us aware of these changes quickly. It helps us to know our breasts – and the more we know our breasts, the more we can make wise health choices."
+          }
+        },
+        "e55a26c7-5933-40a5-b87a-cafe7bf36559": {
+          "type": "Tab",
+          "settings": {
+            "tab_heading_text": "Directions",
+            "tab_head_text": "We make Balm deodorants because touching your armpits is not only good for them, it's super smart. Touching can stimulate lymph movement. But also, your fingertips are like little computers. They remember textures and shapes. This is important because sometimes the lymph nodes under your armpits develop physical changes – like swelling, increased temperature, or they can become sore. Touch is the best way – the most immediate way to make us aware of these changes quickly. It helps us to know our breasts – and the more we know our breasts, the more we can make wise health choices."
+          }
+        },
+        "0a2fd17e-179f-4e7c-9879-ffdbe6e35bb9": {
+          "type": "Tab",
+          "settings": {
+            "tab_heading_text": "Why_a_balm",
+            "tab_head_text": "We make Balm deodorants because touching your armpits is not only good for them, it's super smart. Touching can stimulate lymph movement. But also, your fingertips are like little computers. They remember textures and shapes. This is important because sometimes the lymph nodes under your armpits develop physical changes – like swelling, increased temperature, or they can become sore. Touch is the best way – the most immediate way to make us aware of these changes quickly. It helps us to know our breasts – and the more we know our breasts, the more we can make wise health choices."
+          }
+        },
+        "4071c005-3e92-4a9e-ba2a-23e1329b4608": {
+          "type": "Tab",
+          "settings": {
+            "tab_heading_text": "Our_never_promise",
+            "tab_head_text": "We make Balm deodorants because touching your armpits is not only good for them, it's super smart. Touching can stimulate lymph movement. But also, your fingertips are like little computers. They remember textures and shapes. This is important because sometimes the lymph nodes under your armpits develop physical changes – like swelling, increased temperature, or they can become sore. Touch is the best way – the most immediate way to make us aware of these changes quickly. It helps us to know our breasts – and the more we know our breasts, the more we can make wise health choices."
+          }
+        },
+        "594dbe51-8c2b-41ae-8ffd-8eb44e074339": {
+          "type": "Tab",
+          "settings": {
+            "tab_heading_text": "Our_always_promise",
+            "tab_head_text": "We make Balm deodorants because touching your armpits is not only good for them, it's super smart. Touching can stimulate lymph movement. But also, your fingertips are like little computers. They remember textures and shapes. This is important because sometimes the lymph nodes under your armpits develop physical changes – like swelling, increased temperature, or they can become sore. Touch is the best way – the most immediate way to make us aware of these changes quickly. It helps us to know our breasts – and the more we know our breasts, the more we can make wise health choices."
+          }
+        }
+      },
+      "block_order": [
+        "26762459-41c7-49be-b1e7-0068cd1cabee",
+        "1223bedd-7d57-46d2-bc46-ab7ff7b9e4e6",
+        "e55a26c7-5933-40a5-b87a-cafe7bf36559",
+        "0a2fd17e-179f-4e7c-9879-ffdbe6e35bb9",
+        "4071c005-3e92-4a9e-ba2a-23e1329b4608",
+        "594dbe51-8c2b-41ae-8ffd-8eb44e074339"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "benefits_sec_yedrzf": {
+      "type": "benefits-sec",
+      "settings": {
+        "title": "Love Your Feminine"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_quick_add": true,
+        "heading": "frequently bought together",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 1,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "image-with-text-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "image-with-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image-with-text-0",
+        "image-with-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "title": "Free Shipping",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Hassle-Free Exchanges",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "64298e2c-8e39-4208-b99a-f99b118cada7": {
+      "type": "deodrent-scroll-top-section",
+      "settings": {
+        "scroll_icon": "<i class=\"fa-solid fa-chevron-up\"><\/i>",
+        "scroll_text": "BACK TO TOP"
+      }
+    }
+  },
+  "order": [
+    "82c2dea6-6213-4402-b5f8-9839f302cf07",
+    "custom_menu_feminine_pdhA4e",
+    "custom_menu_vaginal_8DFEq6",
+    "custom_menu_vulva_fxmrF7",
+    "custom_menu_deodorant_ab4krV",
+    "main",
+    "7fecb0ec-d9e2-4a42-b110-f6980394da20",
+    "6d04598c-e69a-463c-8068-57c2cf35cb22",
+    "benefits_sec_yedrzf",
+    "product-recommendations",
+    "image-with-text",
+    "multicolumn",
+    "64298e2c-8e39-4208-b99a-f99b118cada7"
+  ]
+}

@@ -1,0 +1,56 @@
+ <div class="underarm-home-text-image">
+<div class="container"><div class="underarm-custom-img-text">
+<div class="underarm-image-gallery">
+  {% assign i=0 %}
+{%for block in section.blocks %}  
+  {% assign i=i|plus:1 %}
+  {% if i==3 %}
+<div class="underarm-image-sect-custom {{ i }}">
+ {% if block.settings.underarm_custom_image != blank %}  <img src="{{block.settings.underarm_custom_image | img_url:'master'}}"/> {% endif %}
+   <a href="javascript:void(0)" class="button-cstm-click"><h4>{{ block.settings.underarm_heading_text }}</h4></a>
+</div>
+    {% else %}
+<div class="underarm-image-sect-custom {{ i }}">
+ {% if block.settings.underarm_custom_image != blank %}  <img src="{{block.settings.underarm_custom_image | img_url:'master'}}"/> {% endif %}
+   <a href="{{ block.settings.underarm_title_text_link }}"><h4>{{ block.settings.underarm_heading_text }}</h4></a>
+</div>
+
+  {% endif %}
+  {%endfor%}
+  </div>
+  </div></div>
+  </div>
+
+
+{% schema %}
+  {
+    "name": "underarm image with text",
+    "blocks": [{
+      "type": "image",
+       "name": "image Block",
+       "settings": [
+         {
+            "type": "image_picker",
+      "id": "underarm_custom_image",
+      "label": "Your image"
+         },
+         {
+            "type": "url",
+            "id": "underarm_title_text_link",
+            "label": "title url"
+         },
+         {
+            "type": "text",
+      "id": "underarm_heading_text",
+      "label": "your text"
+         }
+       ]
+    }],
+    "presets": [
+      {
+        "category": "image",
+        "name": "underarm image with text"
+      }
+    ]
+  }
+{% endschema %}

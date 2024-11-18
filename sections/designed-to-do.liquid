@@ -1,0 +1,63 @@
+<div class="designed-to-do">
+  <div class="container">
+    <div class="designed-text-wrapper">
+      <div class="designed-image">
+        <img src="{{ section.settings.image |img_url:"master" }}">
+      </div>
+      <div class="designed-heading">
+        <h3>{{ section.settings.heading }}</h3>
+      </div>
+      <div class="designed-text">
+        <p>{{ section.settings.text }}</p>
+      </div>
+      <div class="designed-subtext">
+        <p>{{ section.settings.subtext }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+{% schema %}
+  {
+    "name": "designed to do",
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"image",
+        "label":"Select Image"
+      },
+      {
+        "type":"text",
+        "id":"heading",
+        "label":"Enter Heading"
+      },
+      {
+        "type":"text",
+        "id":"text",
+        "label":"Enter Text"
+      },
+      {
+        "type":"text",
+        "id":"subtext",
+        "label":"Enter text"
+      }
+    ],
+    "presets":[
+      {
+        "name":"designed to do"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

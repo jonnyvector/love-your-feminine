@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "0fd31c25-aeb3-427e-9520-318ae2d8713f": {
+      "type": "custom-menu-section",
+      "disabled": true,
+      "settings": {
+        "menu": "custom-menu",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "326d7a33-b9fe-4f28-b4c5-306f6828b95b": {
+      "type": "resorce-tab-section",
+      "disabled": true,
+      "settings": {
+        "tab1": "MAMMOGRAMS",
+        "page_tab1": "",
+        "page_content1": "MAMMOGRAMS_Page",
+        "tab2": "ULTRASOUND",
+        "page_content2": "BREASTLITERACY_Page",
+        "tab3": "THERMOGRAMS",
+        "page_content3": "THERMOGRAMS_Page",
+        "tab4": "BREAST LITERACY",
+        "page_content4": "BREASTLITERACY_Page"
+      }
+    },
+    "7f042d2a-0c15-4bab-a8b1-7e6dd9e27936": {
+      "type": "Text_contnent",
+      "disabled": true,
+      "settings": {}
+    },
+    "b8b5892c-f69a-4954-bfcd-2f48510864b5": {
+      "type": "resorce-tab-sect-second",
+      "blocks": {
+        "cf801ce2-81bf-4879-bcb0-27608c20c140": {
+          "type": "Tab",
+          "settings": {
+            "tab_heading_text": "MAMMOGRAMS",
+            "default_content": "Contrary to how mammograms are presented to women by the corporate medical community, they remain quite controversial within the national and global medical and scientific communities. One subject   thousands of scientists and medical doctors agree on, is the short-comings of the standard ethical informed consent provided to women. This leads to a lack of legitimate understanding by women of what a mammogram can and cannot tell them about the state of their breasts, and the benefits versus harms that can result from mammograms. Ultimately, whether or not a mammogram is the right screening method for you is up to YOU, but only when you have all of the information you need to assess this choice. Otherwise with selective information and understanding, you are herded to serve the good of another entity besides yourself.",
+            "default_content_video": "",
+            "default_content_video_text": "",
+            "page_tab1": "resource-custom",
+            "page_tab2": "educational-resources",
+            "page_tab3": "",
+            "page_tab4": "",
+            "page_tab5": "",
+            "page_tab6": "",
+            "page_tab7": ""
+          }
+        },
+        "37a52227-457b-41c3-8325-a6eab6cdb2d0": {
+          "type": "Tab",
+          "settings": {
+            "tab_heading_text": "ULTRASOUND",
+            "default_content": "COMING SOON - COMING SOON - COMING SOON",
+            "default_content_video": "",
+            "default_content_video_text": "",
+            "page_tab1": "information-for-you-to-claim-your-ethical-informed-consent-3",
+            "page_tab2": "information-for-you-to-claim-your-ethical-informed-consent-2",
+            "page_tab3": "information-for-you-to-claim-your-ethical-informed-consent-1",
+            "page_tab4": "information-for-you-to-claim-your-ethical-informed-consent",
+            "page_tab5": "",
+            "page_tab6": "",
+            "page_tab7": ""
+          }
+        },
+        "dd741ba3-1059-4751-9484-ea2b4a99d9e1": {
+          "type": "Tab",
+          "settings": {
+            "tab_heading_text": "THERMOGRAMS",
+            "default_content": "Thermograms are a legitimate breast screening method used by thousands of medical doctors and practitioners because it tells a story about your breasts that has great value. It is a \"no harm done\" screening method that emits zero harmful ionized radiation and zero compression. Comparing mammograms to thermograms is akin to comparing apples to oranges, so let's take a look at the story a thermogram can tell you about your breasts and how the information it can provide can serve you and your breast-care and health decisions.",
+            "default_content_video": "",
+            "default_content_video_text": ":",
+            "page_tab1": "information-for-you-to-claim-your-ethical-informed-consent",
+            "page_tab2": "information-for-you-to-claim-your-ethical-informed-consent-6",
+            "page_tab3": "",
+            "page_tab4": "",
+            "page_tab5": "",
+            "page_tab6": "",
+            "page_tab7": ""
+          }
+        },
+        "df07944c-ec21-4385-99a8-d9a31acd0714": {
+          "type": "Tab",
+          "settings": {
+            "tab_heading_text": "BREAST LITERACY",
+            "default_content": "There are two different kinds of breast literacy. Having a firm grasp of each one can benefit your breast wellness decisions differently.\n(1) The first type of literacy is understanding your breasts' physiology. We don't need to be medical doctors to have a foundational understanding of what is inside our breasts. This powerful knowledge can give you a picture of how to care for your breasts, where and when they might need daily support, as well as how to use touch and massage for optimal health benefits. \n(2) The second type of literacy is one of breast touch. Your fingertips are like little computers. They have the ability to remember texture, shape, temperatures and sensations\/soreness that you would not otherwise be able to identify. This type of literacy does NOT come overnight or with touching your breasts once a month. It is a learned literacy and with daily practice (just like with reading) this skill can be fine- tuned. Touching your breasts once a month or every two months can create fear and uncertainty because it results in alack and  of understanding and familiarity of the natural ambiance and cycles of  your breast tissue.",
+            "default_content_video": "",
+            "default_content_video_text": "",
+            "page_tab1": "information-for-you-to-claim-your-ethical-informed-consent-3",
+            "page_tab2": "",
+            "page_tab3": "",
+            "page_tab4": "",
+            "page_tab5": "",
+            "page_tab6": "",
+            "page_tab7": ""
+          }
+        }
+      },
+      "block_order": [
+        "cf801ce2-81bf-4879-bcb0-27608c20c140",
+        "37a52227-457b-41c3-8325-a6eab6cdb2d0",
+        "dd741ba3-1059-4751-9484-ea2b4a99d9e1",
+        "df07944c-ec21-4385-99a8-d9a31acd0714"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "0fd31c25-aeb3-427e-9520-318ae2d8713f",
+    "326d7a33-b9fe-4f28-b4c5-306f6828b95b",
+    "7f042d2a-0c15-4bab-a8b1-7e6dd9e27936",
+    "b8b5892c-f69a-4954-bfcd-2f48510864b5"
+  ]
+}

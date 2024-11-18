@@ -1,0 +1,44 @@
+ <div class="custom-home-text-deodrent">
+  <div class="custom-home-multi-text-deodrent-background-img" {% if section.settings.deodrent_image_id != blank %} style="background-image: url('{{ section.settings.deodrent_image_id | img_url:"master" }}');" {% endif %}>
+<div class="container"><div class="custom-deodrent">
+<div class="heading-section-deodrent">
+<h2>{{ section.settings.deodrent_heading }}</h2>
+  </div>
+  <div class="main-wrappper-deodrent">
+  <div class="text-sect-deodrent">
+<p>{{ section.settings.deodrent_description }}</p>
+</div>
+  </div>
+  </div></div>
+  </div>
+ </div>
+
+
+{% schema %}
+  {
+    "name": "text",
+    "settings": [
+      {
+            "type": "image_picker",
+            "id": "deodrent_image_id",
+            "label": "Image"
+         },
+       {
+      "type": "text",
+      "id": "deodrent_heading",
+      "label": "headline"
+    },
+        {
+      "type": "text",
+      "id": "deodrent_description",
+      "label": "description"
+    }
+    ],
+    "presets": [
+      {
+        "category": "button",
+        "name": "text deodrent third"
+      }
+    ]
+  }
+{% endschema %}

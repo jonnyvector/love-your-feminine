@@ -1,0 +1,100 @@
+ <div class="custom-home-text-img-sect" id="cstm-underarm-detox">
+  <div class="custom-home-multi-text-image-button-background-img" {% if section.settings.main_back_image_id != blank %} style="background-image: url('{{ section.settings.main_back_image_id | img_url:"master" }}');" {% endif %}>
+   <div class="row">
+
+   <div class="col-md-6">
+<div class="img-sect-left">
+  {% if section.settings.custom_image_left !=blank %}
+  <img src="{{section.settings.custom_image_left | img_url:'master'}}"/>
+    {% endif %}
+  </div>
+ </div>
+  <div class="col-md-6">
+<div class="text-sect-right">
+  <div class="cstm-heading-wrap-text-image">
+  <h4>{{ section.settings.heading_text_right }}</h4>
+  </div>
+  {%for block in section.blocks %} 
+ <p><i class="fa-solid fa-check"></i><span> {{ block.settings.text_icon_id }}</span></p>
+     {%endfor%}
+  <h5>{{ section.settings.inner_heading_text_right }}</h5>
+  </div>
+    <div class="shop-learn-button">
+      <div class="shop-learn-butnn main_btn">
+       <a href="{{ section.settings.text_img_shop_link }}" class="black-btn">{{ section.settings.text_img_shop_name }}</a>
+        </div>
+        <div class="shop-learn-butnn learn-more">
+       <a href="{{ section.settings.text_img_Learn_link }}" class="trassparent-btn">{{ section.settings.text_img_learn_name }}</a>
+        </div>
+    </div>
+ </div>
+    
+   </div>
+ </div>
+ </div>
+
+{% schema %}
+  {
+    "name": "text image with button",
+    "settings": [
+      {
+            "type": "image_picker",
+            "id": "main_back_image_id",
+            "label": "background Image"
+         },
+      {
+            "type": "image_picker",
+      "id": "custom_image_left",
+      "label": "Your image"
+         },
+      {
+            "type": "text",
+            "id": "heading_text_right",
+            "label": "Add Heading text"
+         },
+         {
+            "type": "text",
+            "id": "inner_heading_text_right",
+            "label": "Add inner Heading text"
+         },
+         {
+            "type": "url",
+            "id": "text_img_shop_link",
+            "label": "Shop Now url"
+         },
+      {
+            "type": "text",
+            "id": "text_img_shop_name",
+            "label": "Shop Now"
+         },
+         {
+            "type": "url",
+            "id": "text_img_Learn_link",
+            "label": "Learn more url"
+         },
+          {
+            "type": "text",
+            "id": "text_img_learn_name",
+            "label": "Learn more"
+         } 
+    ],
+    "blocks": [{
+      "type": "images",
+       "name": "image text Block",
+       "settings": [
+          {
+          "type": "html",
+          "id": "text_icon_id",
+          "label": "Add icon with text"
+        }
+      ]
+    }
+  ],   
+    "presets": [
+      {
+        "category": "image",
+        "name": "text image with button"
+      }
+    ]
+  }
+{% endschema %}
