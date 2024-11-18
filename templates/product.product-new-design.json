@@ -118,12 +118,14 @@
         },
         "custom_liquid_cR9bCq": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<br>\n<h2 class=\"h4 accordion__title\">\nFAQS <\/h2>"
           }
         },
         "collapsible_tab_KwMKHX": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "{{ product.metafields.custom.question_1.value }}",
             "icon": "question_mark",
@@ -133,6 +135,7 @@
         },
         "collapsible_tab_yNwjzW": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "{{ product.metafields.custom.question_2.value }}",
             "icon": "question_mark",
@@ -142,19 +145,11 @@
         },
         "collapsible_tab_3NYze9": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "{{ product.metafields.custom.question_3.value }}",
             "icon": "question_mark",
             "content": "<p>{{ product.metafields.custom.answer_3 | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_yr9Cxe": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "{{ product.metafields.custom.question_4.value }}",
-            "icon": "question_mark",
-            "content": "<p>{{ product.metafields.custom.answer_4 | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -200,7 +195,6 @@
         "collapsible_tab_KwMKHX",
         "collapsible_tab_yNwjzW",
         "collapsible_tab_3NYze9",
-        "collapsible_tab_yr9Cxe",
         "share",
         "678a86f5-b78f-4f4f-89b0-e6884d013cc5",
         "f2b42888-646b-4283-a1c2-3798b302387a",
