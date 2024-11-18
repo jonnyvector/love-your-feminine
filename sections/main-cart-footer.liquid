@@ -73,12 +73,12 @@
         
               <div class="cart__ctas" {{ block.shopify_attributes }}>
                 <noscript>
-                  <button type="submit" class="cart__update-button button button--secondary" form="cart">
+                  <button type="submit" class="cart__update-button button button--secondary" form="cart-form">
                     {{ 'sections.cart.update' | t }}
                   </button>
                 </noscript>
 
-                <button type="submit" id="checkout" class="cart__checkout-button button" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart" disabled>
+                <button type="submit" id="checkout" class="cart__checkout-button button" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart-form" disabled>
                   {{ 'sections.cart.checkout' | t }}
                 </button>
               </div>
@@ -111,9 +111,9 @@
     const cartSubmitInput = document.createElement('input');
     cartSubmitInput.setAttribute('name', 'checkout');
     cartSubmitInput.setAttribute('type', 'hidden');
-    document.querySelector('#cart').appendChild(cartSubmitInput);
+    document.querySelector('#cart-form').appendChild(cartSubmitInput);
     document.querySelector('#checkout').addEventListener('click', function(event) {
-      document.querySelector('#cart').submit();
+      document.querySelector('#cart-form').submit();
     });
   });
 </script>
